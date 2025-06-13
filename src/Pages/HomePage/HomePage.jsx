@@ -10,13 +10,13 @@ import CTASection from "../../Components/CTASection";
 import { pageTitle } from "../../helper";
 
 const heroData = {
-  title: "CREATE YOUR <b>DREAM GARDEN</b>",
+  title: "FROM TRASH <br/> <b>TO SUPER FUEL</b>",
   subtitle:
-    "Crafting dream gardens with passion, creativity, and sustainability for over a decade with our experienced landscape artists and gardener teams.",
-  btnText1: "Get Started",
-  btnUrl1: "/services",
-  btnText2: "Explore Projects",
-  btnUrl2: "/projects",
+    "Transforming plastic waste into high-calorific, sulphur-free fuel — saving costs, cutting emissions, and closing the loop.",
+  btnText1: "Get Super Fuel",
+  btnUrl1: "/contact",
+  btnText2: "Download Brochure",
+  btnUrl2: "/brochure",
 
   funfact: {
     number: "500+",
@@ -42,63 +42,63 @@ const valueData = {
 };
 
 const featureData = {
-  sectionTitle: "WE ARE <span>DIFFERENT</span> IN EVERY WAYS",
+  sectionTitle: "Processing <span>Plastic</span> Fuelling Industries",
   buttonText: "Get Started",
   buttonUrl: "/services",
   image: "/assets/img/feature_thumb.jpg",
   features: [
     {
       icon: "fa6-regular:heart",
-      title: "Passion in every work",
+      title: "High Calorie Fuel",
       description:
-        "We are deeply passionate about creating beautiful, sustainable green landscapes for our clients.",
+        "More energy per litre than traditional furnace oil or LDO.",
     },
     {
       icon: "fa6-solid:link",
-      title: "Collaboration on top",
+      title: "Near-Zero Sulphur Emissions",
       description:
-        "We make your dream design come true by combining your ideas with our 10+ years of garden design expertise.",
+        "No smoke. No pollution. Just high performance.",
     },
     {
       icon: "fa6-solid:layer-group",
-      title: "Sustainability in check",
+      title: "Circular Economy in Action",
       description:
-        "We love nurturing nature, one garden at a time, so that you can enjoy the beautiful landscape of our garden even longer.",
+        "Diverting non-recyclable plastic from landfills to fuel tanks. Cleaning environment and enriching factories.",
     },
     {
       icon: "fa6-brands:ubuntu",
-      title: "Creativity unleashed",
+      title: "Over 10% Cost Savings",
       description:
-        "We make sure to only give you our innovative designs that stand out to make sure that your garden is not like the others.",
+        "Efficient combustion = lower fuel bills and cleaner operations.",
     },
   ],
 };
 
 const workingProcessData = {
-  sectionTitle: "SIMPLE STEPS FOR OUR <span>LANDSCAPE</span> WORK",
+  sectionTitle: "From <span>Trash to Tank</span> - How It Works",
 
   subtitle: "HOW IT WORKS",
   logo: "/assets/img/logo.svg",
   steps: [
     {
-      title: "01 | Design consultation",
+      title: "01 | Collect Waste Plastic",
       description:
-        "In the initial step, we sit down with you to have a detailed discussion about your gardening vision and preferences.",
+        "Sourced from post-consumer and industrial plastic waste that’s otherwise non-recyclable.",
     },
     {
-      title: "02 | Design & planning",
+      title: "02 | Convert with Proprietary Tech",
       description:
-        "Our team of experts meticulously crafts a custom garden design that aligns with your desires and your space characteristics.",
+        "Using our in-house pyrolysis reactors, we convert waste into RDF Oil, ready for industrial use.",
     },
     {
-      title: "03 | Implement construction",
+      title: "03 | Checks for Assured Quality",
       description:
-        "We present the design to you for review. Once approved, we move forward to implement the plan with construction.",
+        "Stringent quality checks of fuel to ensure delivery of high-quality, high-calorie, low sulphuric fuel.",
     },
     {
-      title: "04 | Garden decorating",
+      title: "04 | Deliver Fuel to Industry",
       description:
-        "With your design finalized, we put on our gardening gloves and work, creating your garden to be as beautiful as envisioned.",
+        "Sulphur-free, high-energy clean fuel delivered directly to your industrial operations for cheaper, cleaner, low-pollution factory floor.",
     },
   ],
 };
