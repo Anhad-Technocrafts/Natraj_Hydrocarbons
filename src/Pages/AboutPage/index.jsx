@@ -1,6 +1,7 @@
 import React from "react";
 import PageHeading from "../../Components/PageHeading";
 import AboutUs from "../../Components/Aboutus";
+import Vission from "../../Components/Vission/Vission";
 import ValueSection from "../../Components/ValueSection";
 import FeatureSection from "../../Components/FeatureSection";
 import TeamMember from "../../Components/Team";
@@ -8,6 +9,7 @@ import BrandSection from "../../Components/BrandSection";
 import WorkSection1 from "../../Components/WorksSection/WorkSection1";
 import CardSection from "../../Components/CardSection";
 import { pageTitle } from "../../helper";
+import CTASection from "../../Components/CTASection";
 
 const BreadcrumbsData = {
   backgroundImage: "/assets/img/about_heading_bg.jpg",
@@ -19,12 +21,12 @@ const BreadcrumbsData = {
 };
 
 const aboutUsData = {
-  title: `CRAFTING <br><span>DREAM GARDENS</span> <br>INTO REALITY`,
+  title: `FUELING<br><span> INDUSTRY</span> <br>CLEANING THE PLANET`,
 
   introduction:
-    "At LeafLife, we are passionate about transforming outdoor spaces into breathtaking gardens that tell a unique story. Our journey began over a decade ago, driven by a shared love for nature",
+    "Founded in 2022, Nataraj Hydrocarbons was born from a shared mission: to convert plastic waste into a cleaner, high-performance industrial fuel — and to do it at scale. Since then, we've grown into one of India's fastest-rising clean-tech fuel companies, backed by proven technology, industrial traction, and environmental urgency.",
   introduction1:
-    "and design. Since then, we have dedicated ourselves to creating gardens that enhance your property. Our solid commitment to sustainability, innovation, and collaboration has been the foundation of our success.",
+    "Our RDF Oil offers a sustainable, sulfur-free alternative to furnace oil and LDO — helping industries reduce emissions, cut fuel costs, and adopt circular economy practices without disrupting operations.",
 
   video: {
     videoUrl: "https://www.youtube.com/embed/rRid6GCJtgc",
@@ -43,84 +45,91 @@ const valueData = {
 };
 
 const featureData = {
-  sectionTitle: "WE ARE <span>DIFFERENT</span> IN EVERY WAYS",
-  buttonText: "Get Started",
+  sectionTitle: "OUR <span>TIMELINE </span> <br>AT A GLANCE</br> ",
+  buttonText: "Our Products",
   buttonUrl: "/services",
   image: "/assets/img/feature_thumb.jpg",
   features: [
     {
       icon: "fa6-regular:heart",
-      title: "Passion in every work",
+      title: "Founding And Origins",
       description:
-        "We are deeply passionate about creating beautiful, sustainable green landscapes for our clients.",
+        "2022 – Founded in Kolkata by Rahul Bansal & Nitish Jain",
     },
     {
       icon: "fa6-solid:link",
-      title: "Collaboration on top",
+      title: "Technology Development",
       description:
-        "We make your dream design come true by combining your ideas with our 10+ years of garden design expertise.",
+        "In-house pyrolysis reactors developed & tested",
     },
     {
       icon: "fa6-solid:layer-group",
-      title: "Sustainability in check",
+      title: "Initial Production Capacity",
       description:
-        "We love nurturing nature, one garden at a time, so that you can enjoy the beautiful landscape of our garden even longer.",
+        "Initial production capacity: 50,000 litres/month",
     },
     {
       icon: "fa6-brands:ubuntu",
-      title: "Creativity unleashed",
+      title: "Client Retention",
       description:
-        "We make sure to only give you our innovative designs that stand out to make sure that your garden is not like the others.",
+        "100% repeat client orders from industrial buyers",
+    },
+
+    {
+      icon: "fa6-brands:ubuntu",
+      title: "Scaling And Growth Projection",
+      description:
+        "Now scaled to 150,000+ litres/month, expanding to 350,000 litres/month in FY26",
     },
   ],
 };
 
 const teamMembersData = {
-  title: `OUR TEAM <br><span>OF</span> DEDICATION`,
-  subtitle: "WORKS",
+  title: `OUR STORY <br>`,
+  subtitle: "FOUNDERS",
   teamMembers: [
     {
       img: "/assets/img/team_member_1.jpg",
-      name: "Sarah Turner",
-      role: "Founder & Lead Designer",
-      description: "Experienced in 10 years of Garden Landscape design.",
+      name: "Rahul Bansal",
+      role: "Director",
+      description: "Director, brings over 15 years of experience in energy, cold storage, and hydrocarbon R&D. After earning his M.Sc. from Cranfield University, U.K., he turned his lifelong dream into a clean-energy business rooted in technical depth and sustainable impact.",
     },
     {
       img: "/assets/img/team_member_2.jpg",
-      name: "John Mason",
-      role: "Landscape Architect",
-      description: "Experienced in 10 years of Garden Landscape design.",
+      name: "Nitish Jain",
+      role: "Director",
+      description: "Director and Chartered Accountant, brings financial acumen and over 13 years of experience in the plastic manufacturing industry. His expertise ensures efficient raw material sourcing and operational excellence — core pillars of NHC’s growth.",
     },
-    {
-      img: "/assets/img/team_member_3.jpg",
-      name: "Emily Parker",
-      role: "Horticulture Expert",
-      description: "Experienced in 10 years of Garden Landscape design.",
-    },
-    {
-      img: "/assets/img/team_member_4.jpg",
-      name: "David Anderson",
-      role: "Team Project Manager",
-      description: "Experienced in 10 years of Garden Landscape design.",
-    },
-    {
-      img: "/assets/img/team_member_2.jpg",
-      name: "John Mason",
-      role: "Landscape Architect",
-      description: "Experienced in 10 years of Garden Landscape design.",
-    },
+    // {
+    //   img: "/assets/img/team_member_3.jpg",
+    //   name: "Emily Parker",
+    //   role: "Horticulture Expert",
+    //   description: "Experienced in 10 years of Garden Landscape design.",
+    // },
+    // {
+    //   img: "/assets/img/team_member_4.jpg",
+    //   name: "David Anderson",
+    //   role: "Team Project Manager",
+    //   description: "Experienced in 10 years of Garden Landscape design.",
+    // },
+    // {
+    //   img: "/assets/img/team_member_2.jpg",
+    //   name: "John Mason",
+    //   role: "Landscape Architect",
+    //   description: "Experienced in 10 years of Garden Landscape design.",
+    // },
   ],
 };
 
-const brandLogos = [
-  "/assets/img/brand_logo_1.svg",
-  "/assets/img/brand_logo_2.svg",
-  "/assets/img/brand_logo_3.svg",
-  "/assets/img/brand_logo_4.svg",
-  "/assets/img/brand_logo_5.svg",
-  "/assets/img/brand_logo_6.svg",
-  "/assets/img/brand_logo_3.svg",
-];
+// const brandLogos = [
+//   "/assets/img/brand_logo_1.svg",
+//   "/assets/img/brand_logo_2.svg",
+//   "/assets/img/brand_logo_3.svg",
+//   "/assets/img/brand_logo_4.svg",
+//   "/assets/img/brand_logo_5.svg",
+//   "/assets/img/brand_logo_6.svg",
+//   "/assets/img/brand_logo_3.svg",
+// ];
 
 const WorkingData = {
   title: "OUR <span>WORK</span>",
@@ -166,6 +175,32 @@ const cardData = {
   buttonLink: "/projects",
 };
 
+const VissionUsData = {
+  title: `OUR VISION & MISSION`,
+
+  introduction:
+    "To lead the global transition from fossil fuels to clean, circular, waste-derived energy — making plastic pollution a resource, not a crisis.",
+  introduction1:
+    "To produce high-calorific, sulfur-free fuel by converting non-recyclable plastic waste, driving both industrial performance and environmental restoration.",
+
+  // video: {
+  //   videoUrl: "https://www.youtube.com/embed/rRid6GCJtgc",
+  //   backgroundImage: "/assets/img/video_block_bg.jpg",
+  // },
+  // cta: {
+  //   backgroundImage: "/assets/img/cta_bg_3.jpg",
+  //   buttonUrl: "/projects",
+  //   buttonText: "Explore Projects",
+  // },
+};
+
+const ctaData = {
+  backgroundImage: "/assets/img/cta_bg.jpg",
+  title: "POWER YOUR INDUSTRY <br />LOWER EMISSIONS & COSTS.",
+  buttonText: "Contact Us",
+  buttonUrl: "/contact",
+};
+
 export default function AboutPage() {
   pageTitle("About Us | LeafLife");
   return (
@@ -176,10 +211,12 @@ export default function AboutPage() {
         <ValueSection data={valueData} />
         <FeatureSection data={featureData} />
       </div>
+      <Vission data={VissionUsData} />
       <TeamMember data={teamMembersData} />
-      <BrandSection data={brandLogos} />
-      <WorkSection1 data={WorkingData} />
-      <CardSection data={cardData} />
+      {/* <BrandSection data={brandLogos} /> */}
+      {/* <WorkSection1 data={WorkingData} /> */}
+      {/* <CardSection data={cardData} /> */}
+       <CTASection data={ctaData} />
     </>
   );
 }

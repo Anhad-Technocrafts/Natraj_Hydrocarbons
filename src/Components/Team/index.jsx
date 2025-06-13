@@ -36,7 +36,7 @@ export default function TeamMember({ data }) {
                   className="cs_brackets_title cs_normal cs_fs_16 mb-0"
                   dangerouslySetInnerHTML={{ __html: data.subtitle }}
                 ></h3>
-                <div
+                {/* <div
                   className="cs_slider_arrows cs_style_4 cs_hide_lg"
                   style={{ cursor: "pointer" }}
                 >
@@ -75,7 +75,7 @@ export default function TeamMember({ data }) {
                       />
                     </svg>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="cs_height_64 cs_height_lg_50" />
@@ -142,7 +142,8 @@ export default function TeamMember({ data }) {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div className="cs_pagination cs_style_2 cs_show_lg" />
+            <d
+            iv className="cs_pagination cs_style_2 cs_show_lg" />
           </div>
         </div>
         <div className="cs_height_100 cs_height_lg_70" />

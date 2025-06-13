@@ -109,55 +109,55 @@ const servicesData = {
   btnUrl: "/services",
   service: [
     {
-      title: "HOME GARDEN",
+      title: "1,800+ tons",
       subtitle:
-        "Crafting the perfect garden space for your home. Whether indoor or outdoor, we got it all ready for your greenery needs.",
+        "of plastic waste processed",
       image: "/assets/img/service_thumb_1.jpg",
       link: "services/home-garden",
       tags: [
-        { label: "Home", url: "/" },
-        { label: "Garden", url: "/" },
-        { label: "Landscape Design", url: "/" },
-        { label: "Expert", url: "/" },
+        // { label: "Home", url: "/" },
+        // { label: "Garden", url: "/" },
+        // { label: "Landscape Design", url: "/" },
+        // { label: "Expert", url: "/" },
       ],
     },
     {
-      title: "PLANT SELECTION",
+      title: "150,000+ litres/month",
       subtitle:
-        "Crafting the perfect garden space for your home. Whether indoor or outdoor, we got it all ready for your greenery needs.",
+        "of clean fuel produced",
       image: "/assets/img/service_thumb_2.jpg",
       link: "services/plant-selection",
       tags: [
-        { label: "Home", url: "/" },
-        { label: "Garden", url: "/" },
-        { label: "Landscape Design", url: "/" },
-        { label: "Expert", url: "/" },
+        // { label: "Home", url: "/" },
+        // { label: "Garden", url: "/" },
+        // { label: "Landscape Design", url: "/" },
+        // { label: "Expert", url: "/" },
       ],
     },
     {
-      title: "HARD SCAPING",
+      title: "100% repeat orders",
       subtitle:
-        "Crafting the perfect garden space for your home. Whether indoor or outdoor, we got it all ready for your greenery needs.",
+        "from industrial clients",
       image: "/assets/img/service_thumb_3.jpg",
       link: "services/hard-scaping",
       tags: [
-        { label: "Home", url: "/" },
-        { label: "Garden", url: "/" },
-        { label: "Landscape Design", url: "/" },
-        { label: "Expert", url: "/" },
+        // { label: "Home", url: "/" },
+        // { label: "Garden", url: "/" },
+        // { label: "Landscape Design", url: "/" },
+        // { label: "Expert", url: "/" },
       ],
     },
     {
-      title: "PUBLIC GARDEN",
+      title: "Zero sulphur",
       subtitle:
-        "Crafting the perfect garden space for your home. Whether indoor or outdoor, we got it all ready for your greenery needs.",
+        "in every litre we ship",
       image: "/assets/img/service_thumb_4.jpg",
       link: "services/public-garden",
       tags: [
-        { label: "Home", url: "/" },
-        { label: "Garden", url: "/" },
-        { label: "Landscape Design", url: "/" },
-        { label: "Expert", url: "/" },
+        // { label: "Home", url: "/" },
+        // { label: "Garden", url: "/" },
+        // { label: "Landscape Design", url: "/" },
+        // { label: "Expert", url: "/" },
       ],
     },
   ],
@@ -214,7 +214,7 @@ const worksData = {
 
 const ctaData = {
   backgroundImage: "/assets/img/cta_bg.jpg",
-  title: "READY TO TRANSFORM <br /> YOUR GARDEN?",
+  title: "POWER YOUR INDUSTRY <br />LOWER EMISSIONS & COSTS.",
   buttonText: "Contact Us",
   buttonUrl: "/contact",
 };
@@ -229,7 +229,7 @@ export default function HomePage() {
       <WorkingProcess data={workingProcessData} />
       <ServicesSection data={servicesData} />
       <TestimonialSection data={testimonialData} />
-      <WorksSection data={worksData} />
+      {/* <WorksSection data={worksData} /> */}
       <CTASection data={ctaData} />
     </>
   );
