@@ -32,7 +32,7 @@ function Login() {
     alert("Login successful!");
   };
 
-  pageTitle("Login | LeafLife");
+  pageTitle("Login | NHC");
 
   return (
     <div className="cs_card cs_style_10">

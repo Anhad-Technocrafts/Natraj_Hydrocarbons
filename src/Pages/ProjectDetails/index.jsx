@@ -101,7 +101,7 @@ const accordionData = {
 };
 
 export default function ProjectDetailsPage() {
-  pageTitle("Project Details | LeafLife");
+  pageTitle("Project Details | NHC");
   return (
     <>
       <PageHeading data={BreadcrumbsData} />

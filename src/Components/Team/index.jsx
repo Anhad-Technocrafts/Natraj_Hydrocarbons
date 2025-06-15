@@ -79,71 +79,47 @@ export default function TeamMember({ data }) {
               </div>
             </div>
             <div className="cs_height_64 cs_height_lg_50" />
-            <Swiper
-              modules={[Navigation]}
-              spaceBetween={24}
-              slidesPerView={4}
-              navigation={{
-                prevEl: prevRef.current,
-                nextEl: nextRef.current,
-                disabledClass: "swiper-button-disabled",
-              }}
-              speed={800}
-              loop={true}
-              className="cs_slider cs_style_1 cs_slider_gap_24"
-              onSwiper={(swiper) => {
-                swiperRef.current = swiper;
-                setIsSwiperReady(true);
-              }}
-              onSlideChange={(swiper) => {
-                const realIndex = swiper.realIndex + 1;
-                setCurrentSlide(realIndex);
-              }}
-              breakpoints={{
-                320: {
-                  slidesPerView: 1,
-                },
-                480: {
-                  slidesPerView: 2,
-                },
-                768: {
-                  slidesPerView: 3,
-                },
-                1024: {
-                  slidesPerView: 4,
-                },
-              }}
-            >
-              {data.teamMembers.map((member, index) => (
-                <SwiperSlide key={index} className="cs_slide">
-                  <div className="cs_team_member cs_style_1">
-                    <img
-                      src={member.img}
-                      alt={member.name}
-                      className="cs_team_member_img"
-                    />
-                    <div className="cs_team_member_info">
-                      <h3
-                        className="cs_team_member_name cs_white_color cs_fs_20 cs_bold mb-0"
-                        dangerouslySetInnerHTML={{ __html: member.name }}
-                      ></h3>
-                      <p
-                        className="cs_team_member_designation cs_white_color cs_fs_20 mb-0"
-                        dangerouslySetInnerHTML={{ __html: member.role }}
-                      ></p>
-                      <p
-                        className="cs_team_member_desc cs_white_color mb-0"
-                        dangerouslySetInnerHTML={{
-                          __html: member.description,
-                        }}
-                      ></p>
+            <div className="row">
+              <div className="col-lg-10">
+                <div className="team_member_container">
+                  {data.teamMembers.map((member, index) => (
+                    <div className="cus_team_member wow fadeInUp" data-aos="fade-up" key={index}>
+                      <div className="cs_team_member cs_style_1 cus_team_image_container">
+                        <img
+                          src={member.img}
+                          alt={member.name}
+                          className="cs_team_member_img"
+                        />
+                        <div className="cs_team_member_info">
+                          <h3
+                            className="cs_team_member_name cs_white_color cs_fs_20 cs_bold mb-0"
+                            dangerouslySetInnerHTML={{ __html: member.name }}
+                          ></h3>
+                          <p
+                            className="cs_team_member_designation cs_white_color cs_fs_20 mb-0"
+                            dangerouslySetInnerHTML={{ __html: member.role }}
+                          ></p>
+                        </div>
+                      </div>
+                      <div className="team_desc_container">
+                        <p
+                          className="cs_fs_20"
+                          dangerouslySetInnerHTML={{
+                            __html: member.description,
+                          }}
+                        ></p>
+                      </div>
                     </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <d
-            iv className="cs_pagination cs_style_2 cs_show_lg" />
+                    ))}
+
+                </div>
+
+              </div>
+              <div className="col-lg-2" style={{display: 'flex', justifyContent: 'flex-start'}}>
+                <div className="h-100 cus_story_side" style={{width: '5px'}} />
+              </div>
+            </div>
+            <div className="cs_pagination cs_style_2 cs_show_lg" />
           </div>
         </div>
         <div className="cs_height_100 cs_height_lg_70" />

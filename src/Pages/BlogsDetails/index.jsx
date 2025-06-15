@@ -133,7 +133,7 @@ const cardData = {
   buttonLink: "/projects",
 };
 export default function BlogDetailsPage() {
-  pageTitle("Blog Details | LeafLife");
+  pageTitle("Blog Details | NHC");
   return (
     <>
       <PageHeading data={BreadcrumbsData} />

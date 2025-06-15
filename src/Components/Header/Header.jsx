@@ -2,21 +2,24 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const data = {
-  logo: "/assets/img/logo.svg",
+  // logo: "/assets/img/logo.svg",
+  logo: "/assets/img/nhc_logo_small_no_bg.png",
   logoUrl: "/",
   menuItems: [
+    { label: "SUPER FUEL", href: "/superfuel" },
     { label: "ABOUT", href: "/about" },
-    { label: "SERVICES", href: "/services" },
-    { label: "PROJECTS", href: "/projects" },
-    {
-      label: "MORE",
-      href: "/contact",
-      children: [
-        { label: "GALLERY", href: "/gallery" },
-        { label: "BLOG", href: "/blog" },
-        { label: "CONTACT", href: "/contact" },
-      ],
-    },
+    { label: "CONTACT", href: "/contact" },
+    // { label: "SERVICES", href: "/services" },
+    // { label: "PROJECTS", href: "/projects" },
+    // {
+    //   label: "MORE",
+    //   href: "/contact",
+    //   children: [
+    //     { label: "GALLERY", href: "/gallery" },
+    //     { label: "BLOG", href: "/blog" },
+    //     { label: "CONTACT", href: "/contact" },
+    //   ],
+    // },
   ],
 };
 
@@ -24,7 +27,7 @@ const Header = () => {
   const [isShowMobileMenu, setIsShowMobileMenu] = useState(false);
   const [openMobileSubmenuIndex, setOpenMobileSubmenuIndex] = useState([]);
   const [isSticky, setIsSticky] = useState();
-  const [isSearchActive, setIsSearchActive] = useState(false);
+  // const [isSearchActive, setIsSearchActive] = useState(false);
 
   const handleOpenMobileSubmenu = (index) => {
     if (openMobileSubmenuIndex.includes(index)) {
@@ -131,7 +134,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="cs_main_header_right">
-                <div className="cs_header_icon_btns">
+                {/* <div className="cs_header_icon_btns">
                   <Link to="/login" className="cs_header_icon_btn cs_center">
                     <svg
                       width={20}
@@ -171,13 +174,16 @@ const Header = () => {
                       </defs>
                     </svg>
                   </button>
+                </div> */}
+                <div className="cus_header_action_btn cs_btn cs_style_1 cs_bold cs_heading_color cs_white_bg wow fadeInLeft aos-init aos-animate ">
+                  Get Super Fuel
                 </div>
               </div>
             </div>
           </div>
         </div>
       </header>
-      <div
+      {/* <div
         className={`cs_header_form_wrap cs_center ${
           isSearchActive ? "active" : ""
         }`}
@@ -214,7 +220,7 @@ const Header = () => {
             </svg>
           </button>
         </form>
-      </div>
+      </div> */}
     </>
   );
 };

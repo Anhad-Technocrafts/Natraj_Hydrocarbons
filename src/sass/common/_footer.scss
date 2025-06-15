@@ -54,6 +54,9 @@
   }
 }
 .cs_text_widget {
+  width: 250px;
+  border-radius: 20px;
+  overflow: hidden;
   display: flex;
   align-items: center;
   gap: 32px;
@@ -140,6 +143,10 @@
   .cs_footer_col {
     flex: none;
     max-width: 150px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
     &:first-child {
       flex: 1;

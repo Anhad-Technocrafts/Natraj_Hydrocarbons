@@ -71,7 +71,7 @@ const cardData = {
   buttonLink: "/projects",
 };
 export default function GalleryPage() {
-  pageTitle("Gallery | LeafLife");
+  pageTitle("Gallery | NHC");
   return (
     <>
       <PageHeading data={BreadcrumbsData} />

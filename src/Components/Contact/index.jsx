@@ -79,7 +79,10 @@ export default function ContactSection({ data }) {
                 {data.contactList.map((item, index) => (
                   <li key={index}>
                     <p className="mb-0">{item.label}</p>
-                    <h4 className="mb-0 cs_fs_20 cs_bold">{item.value}</h4>
+                    <h4 
+                      className="mb-0 cs_fs_20 cs_bold"
+                      dangerouslySetInnerHTML={{ __html: item.value }}  
+                    ></h4>
                   </li>
                 ))}
               </ul>

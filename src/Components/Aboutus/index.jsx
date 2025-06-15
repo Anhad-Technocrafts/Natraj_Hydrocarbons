@@ -70,11 +70,17 @@ export default function AboutUs({ data }) {
               </span>
             </Link>
           </div>
-          <VideoModal
-            isTrue={toggle}
-            iframeSrc={data.video.videoUrl}
-            handelClose={handelClose}
-          />
+          {
+            toggle
+            ?
+            <VideoModal
+              isTrue={toggle}
+              iframeSrc={data.video.videoUrl}
+              handelClose={handelClose}
+            />
+            :
+            null
+          }
           <div className="col-lg-8 t" data-aos="fade-left">
             <div
               className="cs_cta cs_style_2 cs_bg_filed cs_radius_20"

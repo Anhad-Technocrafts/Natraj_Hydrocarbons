@@ -114,7 +114,7 @@ export default function ProjectPage() {
       },
     ],
   };
-  pageTitle("Project | LeafLife");
+  pageTitle("Project | NHC");
   return (
     <>
       <PageHeading data={BreadcrumbsData} />

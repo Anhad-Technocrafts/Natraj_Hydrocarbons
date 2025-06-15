@@ -119,7 +119,7 @@ const SidebarData = {
 };
 
 export default function BlogPage() {
-  pageTitle("Blog | LeafLife");
+  pageTitle("Blog | NHC");
   return (
     <>
       <PageHeading data={BreadcrumbsData} />

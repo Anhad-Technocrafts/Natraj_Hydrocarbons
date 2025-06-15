@@ -21,27 +21,17 @@
 .cs_hero.cs_style_1 {
   position: relative;
   .cs_hero_in {
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 150px 0;
     position: relative;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
   }
-  .cs_hero_title {
-    b {
-      font-weight: 600;
-    }
-  }
-  .cs_hero_subtitle {
-    max-width: 770px;
-    @media (max-width: 1400px) {
-      max-width: 690px;
-    }
-    @media (max-width: 1400px) {
-      max-width: 620px;
-    }
-  }
+
   .cs_hero_text {
     max-width: 1020px;
     position: relative;
@@ -50,12 +40,34 @@
       max-width: 750px;
     }
   }
+
+  .cs_hero_title {
+    text-align: center;
+    // border-bottom: 1px solid var(--white-color);
+    b {
+      font-weight: 600;
+    }
+  }
+  .cs_hero_subtitle {
+    text-align: center;
+    max-width: 770px;
+    @media (max-width: 1400px) {
+      max-width: 690px;
+    }
+    @media (max-width: 1400px) {
+      max-width: 620px;
+    }
+  }
+
   .cs_hero_btns {
     display: flex;
     flex-wrap: wrap;
     gap: 10px 22px;
     align-items: center;
+    justify-content: center;
   }
+  
+  
   .cs_hero_funfact_wrap {
     border-radius: 20px;
     position: absolute;
@@ -77,6 +89,20 @@
           }
         }
       }
+    }
+  }
+  .cus_hero_imagecomparer_container {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .cus_compareslider {
+      border-radius: 20px;
     }
   }
   .cs_hero_funfact {

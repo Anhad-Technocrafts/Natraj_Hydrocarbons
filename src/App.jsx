@@ -20,6 +20,8 @@ import Register from "./Pages/Register";
 import ForgotPassword from "./Pages/ForgotPassword";
 import Error404 from "./Pages/Error404";
 
+
+
 function App() {
   Aos.init({
     duration: 1200,
@@ -38,28 +40,35 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout1 />}>
           <Route index element={<HomePage />} />
-          <Route path="/services" element={<ServicePage />} />
+          
+          {/* Template Pages */}
+          {/* <Route path="/services" element={<ServicePage />} /> */}
         </Route>
 
         <Route path="/" element={<Layout />}>
           <Route path="/about" element={<AboutPage />} />
-
-          <Route path="/projects" element={<ProjectPage />} />
           <Route path="/contact" element={<ContactPage />} />
+
+
+          {/* Template Pages */}
+          {/* <Route path="/projects" element={<ProjectPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:blogId" element={<BlogDetailsPage />} />
-
           <Route path="/projects/:projectId" element={<ProjectDetailsPage />} />
-          <Route path="/faq" element={<FaqPage />} />
+          <Route path="/faq" element={<FaqPage />} /> */}
+
         </Route>
 
         <Route path="/" element={<Layout3 />}>
-          <Route path="/services/:serviceId" element={<ServiceDetailsPage />} />
+          <Route path="/superfuel" element={<ServiceDetailsPage />} />
         </Route>
-        <Route path="/login" element={<Login />} />
+
+        {/* Template Pages */}
+        {/* <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Register />} />
-        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} /> */}
+        
         <Route path="*" element={<Error404 />} />
       </Routes>
     </>

@@ -22,6 +22,7 @@ export default function Vission({ data }) {
       <div className="cs_height_100 cs_height_lg_70" />
       <div className="container">
         <div className="row cs_gap_x_40 cs_gap_y_24">
+          {/* <hr /> */}
           <div className="col-lg-4">
             <div className="cs_section_heading cs_style_4">
               <h2
@@ -45,7 +46,7 @@ export default function Vission({ data }) {
           </div>
         </div>
 
-        <div className="cs_height_56 cs_height_lg_35" />
+
 
         {/* <div className="row cs_gap_y_30">
           <div className="col-lg-4" data-aos="fade-right">
@@ -90,7 +91,7 @@ export default function Vission({ data }) {
           </div>
         </div> */}
       </div>
-      <div className="cs_height_100 cs_height_lg_70" />
+
     </section>
   );
 }

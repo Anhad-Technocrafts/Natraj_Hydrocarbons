@@ -10,13 +10,14 @@ import CTASection from "../../Components/CTASection";
 import { pageTitle } from "../../helper";
 
 const heroData = {
-  title: "FROM TRASH <br/> <b>TO SUPER FUEL</b>",
+  // title: "FROM TRASH <b>TO SUPER FUEL</b>",
+  title: "NATRAJ HYDROCARBONS",
   subtitle:
-    "Transforming plastic waste into high-calorific, sulphur-free fuel — saving costs, cutting emissions, and closing the loop.",
+    "Harnessing Advance Technology, we convert non-recyclable plastic waste to sustainable, eco-friendly, high-performing RDF Fuel (or Super Fuel) for factories — saving costs, cutting emissions, and closing the loop.",
   btnText1: "Get Super Fuel",
   btnUrl1: "/contact",
   btnText2: "Download Brochure",
-  btnUrl2: "/brochure",
+  btnUrl2: "/assets/Natraj_Hydrocarbons_Brochure.pdf",
 
   funfact: {
     number: "500+",
@@ -29,47 +30,53 @@ const heroData = {
     link: "/projects/hachioji-garden",
   },
   backgrounds: [
-    "/assets/img/hero_bg.jpg",
-    "/assets/img/hero_bg_4.jpg",
-    "/assets/img/hero_bg_2.jpg",
-    "/assets/img/hero_bg_4.jpg",
+    // "/assets/img/hero_custom_bg_1.png",
+    // "/assets/img/hero_bg.jpg",
+    // "/assets/img/hero_bg_4.jpg",
+    // "/assets/img/hero_bg_2.jpg",
+    // "/assets/img/hero_bg_4.jpg",
   ],
 };
 
 const valueData = {
   sectionTitle: "VALUES",
-  values: [{ text: "Landscape Design" }, { text: "Indoor Garden" }],
+  values: [
+    { value: '1800+', text: "Tons of Plastic Waste Processed" }, 
+    { value: '150K+', text: "Litres per Month of Clean Fuel Produced" },
+    { value: '100%', text: "Repeat Orders from Industrial Clients" },
+    // { value: '0*', text: "Sulphur in Every Litre" }
+  ],
 };
 
 const featureData = {
-  sectionTitle: "Processing <span>Plastic</span> Fuelling Industries",
-  buttonText: "Get Started",
+  sectionTitle: "Why <br/><span>RDF</span> Fuel?",
+  buttonText: "Get RDF Fuel Estimate",
   buttonUrl: "/services",
-  image: "/assets/img/feature_thumb.jpg",
+  image: "/assets/img/oil_in_hand.png",
   features: [
     {
-      icon: "fa6-regular:heart",
-      title: "High Calorie Fuel",
+      icon: "fa6-solid:fire",
+      title: "High Calorific Fuel",
       description:
         "More energy per litre than traditional furnace oil or LDO.",
     },
     {
-      icon: "fa6-solid:link",
-      title: "Near-Zero Sulphur Emissions",
+      icon: "fa6-solid:wind",
+      title: "Near-Zero Smoke",
       description:
-        "No smoke. No pollution. Just high performance.",
+        "Free from Sulphur Emissions. No pollution. Just high performance.",
     },
     {
-      icon: "fa6-solid:layer-group",
-      title: "Circular Economy in Action",
-      description:
-        "Diverting non-recyclable plastic from landfills to fuel tanks. Cleaning environment and enriching factories.",
-    },
-    {
-      icon: "fa6-brands:ubuntu",
-      title: "Over 10% Cost Savings",
+      icon: "fa6-solid:coins",
+      title: "Significant Cost Savings",
       description:
         "Efficient combustion = lower fuel bills and cleaner operations.",
+    },
+    {
+      icon: "fa6-solid:recycle",
+      title: "Circular Economy in Action",
+      description:
+        "Cleaning environment and enriching factories.",
     },
   ],
 };
@@ -167,25 +174,25 @@ const testimonialData = {
   sectionTitle: "TESTIMONIAL",
   testimonials: [
     {
-      text: `LeafLife's dedication to bringing our <span>vision</span> to life was exceptional. They turned our <span>backyard</span> into a haven of tranquility. Their attention to detail and sustainable practices on their design <span>impressed</span> us.`,
-      name: "STEVE EVANS",
-      designation: "CEO of Malley Company",
+      text: `NHC offers not just a compelling business opportunity, but a critical environmental solution.`,
+      name: "NIRMAL RAJARAM",
+      designation: "Founding Partner, Rigel Capital",
     },
-    {
-      text: `We were blown away by the transformation LeafLife delivered. The entire process was smooth and the results were beyond our expectations.`,
-      name: "RACHEL SMITH",
-      designation: "Founder of GreenNest",
-    },
-    {
-      text: `Working with LeafLife was a breeze. Their eco-friendly approach and stunning designs brought our space to life.`,
-      name: "MARK LEE",
-      designation: "Architect at EcoSpace",
-    },
+    // {
+    //   text: `We were blown away by the transformation NHC delivered. The entire process was smooth and the results were beyond our expectations.`,
+    //   name: "RACHEL SMITH",
+    //   designation: "Founder of GreenNest",
+    // },
+    // {
+    //   text: `Working with NHC was a breeze. Their eco-friendly approach and stunning designs brought our space to life.`,
+    //   name: "MARK LEE",
+    //   designation: "Architect at EcoSpace",
+    // },
   ],
 };
 
 const worksData = {
-  title: "GET TO <span>KNOW</span> OUR <br /> LATEST GARDEN <span>WORKS</span>",
+  title: "BLOGS AND PRESS <span>RELEASES</span>",
   subtitle: "WORKS",
   slides: [
     {
@@ -214,8 +221,8 @@ const worksData = {
 
 const ctaData = {
   backgroundImage: "/assets/img/cta_bg.jpg",
-  title: "POWER YOUR INDUSTRY <br />LOWER EMISSIONS & COSTS.",
-  buttonText: "Contact Us",
+  title: "POWER YOUR INDUSTRY WITH <br />LOWER EMISSIONS & COSTS.",
+  buttonText: "Get Super Fuel",
   buttonUrl: "/contact",
 };
 
@@ -227,7 +234,7 @@ export default function HomePage() {
       <ValueSection data={valueData} />
       <FeatureSection data={featureData} />
       <WorkingProcess data={workingProcessData} />
-      <ServicesSection data={servicesData} />
+      {/* <ServicesSection data={servicesData} /> */}
       <TestimonialSection data={testimonialData} />
       {/* <WorksSection data={worksData} /> */}
       <CTASection data={ctaData} />
