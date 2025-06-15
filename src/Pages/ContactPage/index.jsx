@@ -36,12 +36,12 @@ export default function ContactPage() {
     formButtonText: "Send Message",
   };
 
-  const cardData = {
-    backgroundImage: "/assets/img/card_bg.jpg",
-    tags: ["Home", "Garden", "Landscape Design", "Expert"],
-    title: "MAKE YOUR DREAM <br /> GARDEN INTO REALITY",
-    buttonLink: "/projects",
-  };
+  // const cardData = {
+  //   backgroundImage: "/assets/img/card_bg.jpg",
+  //   tags: ["Home", "Garden", "Landscape Design", "Expert"],
+  //   title: "MAKE YOUR DREAM <br /> GARDEN INTO REALITY",
+  //   buttonLink: "/projects",
+  // };
   pageTitle("Contact | NHC");
   return (
     <>

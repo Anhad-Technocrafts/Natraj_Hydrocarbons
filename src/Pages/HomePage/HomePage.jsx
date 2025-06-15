@@ -110,65 +110,65 @@ const workingProcessData = {
   ],
 };
 
-const servicesData = {
-  title: "SERVICES",
-  btnText: " See More Services",
-  btnUrl: "/services",
-  service: [
-    {
-      title: "1,800+ tons",
-      subtitle:
-        "of plastic waste processed",
-      image: "/assets/img/service_thumb_1.jpg",
-      link: "services/home-garden",
-      tags: [
-        // { label: "Home", url: "/" },
-        // { label: "Garden", url: "/" },
-        // { label: "Landscape Design", url: "/" },
-        // { label: "Expert", url: "/" },
-      ],
-    },
-    {
-      title: "150,000+ litres/month",
-      subtitle:
-        "of clean fuel produced",
-      image: "/assets/img/service_thumb_2.jpg",
-      link: "services/plant-selection",
-      tags: [
-        // { label: "Home", url: "/" },
-        // { label: "Garden", url: "/" },
-        // { label: "Landscape Design", url: "/" },
-        // { label: "Expert", url: "/" },
-      ],
-    },
-    {
-      title: "100% repeat orders",
-      subtitle:
-        "from industrial clients",
-      image: "/assets/img/service_thumb_3.jpg",
-      link: "services/hard-scaping",
-      tags: [
-        // { label: "Home", url: "/" },
-        // { label: "Garden", url: "/" },
-        // { label: "Landscape Design", url: "/" },
-        // { label: "Expert", url: "/" },
-      ],
-    },
-    {
-      title: "Zero sulphur",
-      subtitle:
-        "in every litre we ship",
-      image: "/assets/img/service_thumb_4.jpg",
-      link: "services/public-garden",
-      tags: [
-        // { label: "Home", url: "/" },
-        // { label: "Garden", url: "/" },
-        // { label: "Landscape Design", url: "/" },
-        // { label: "Expert", url: "/" },
-      ],
-    },
-  ],
-};
+// const servicesData = {
+//   title: "SERVICES",
+//   btnText: " See More Services",
+//   btnUrl: "/services",
+//   service: [
+//     {
+//       title: "1,800+ tons",
+//       subtitle:
+//         "of plastic waste processed",
+//       image: "/assets/img/service_thumb_1.jpg",
+//       link: "services/home-garden",
+//       tags: [
+//         // { label: "Home", url: "/" },
+//         // { label: "Garden", url: "/" },
+//         // { label: "Landscape Design", url: "/" },
+//         // { label: "Expert", url: "/" },
+//       ],
+//     },
+//     {
+//       title: "150,000+ litres/month",
+//       subtitle:
+//         "of clean fuel produced",
+//       image: "/assets/img/service_thumb_2.jpg",
+//       link: "services/plant-selection",
+//       tags: [
+//         // { label: "Home", url: "/" },
+//         // { label: "Garden", url: "/" },
+//         // { label: "Landscape Design", url: "/" },
+//         // { label: "Expert", url: "/" },
+//       ],
+//     },
+//     {
+//       title: "100% repeat orders",
+//       subtitle:
+//         "from industrial clients",
+//       image: "/assets/img/service_thumb_3.jpg",
+//       link: "services/hard-scaping",
+//       tags: [
+//         // { label: "Home", url: "/" },
+//         // { label: "Garden", url: "/" },
+//         // { label: "Landscape Design", url: "/" },
+//         // { label: "Expert", url: "/" },
+//       ],
+//     },
+//     {
+//       title: "Zero sulphur",
+//       subtitle:
+//         "in every litre we ship",
+//       image: "/assets/img/service_thumb_4.jpg",
+//       link: "services/public-garden",
+//       tags: [
+//         // { label: "Home", url: "/" },
+//         // { label: "Garden", url: "/" },
+//         // { label: "Landscape Design", url: "/" },
+//         // { label: "Expert", url: "/" },
+//       ],
+//     },
+//   ],
+// };
 
 const testimonialData = {
   sectionTitle: "TESTIMONIAL",
@@ -191,33 +191,33 @@ const testimonialData = {
   ],
 };
 
-const worksData = {
-  title: "BLOGS AND PRESS <span>RELEASES</span>",
-  subtitle: "WORKS",
-  slides: [
-    {
-      image: "/assets/img/project_thumb_9.jpg",
-      name: "SERENE RETREAT",
-      location: "SUNNYVALE, CA",
-      description:
-        "A tranquil garden oasis perfect for your relaxation time with family or alone within your comfortable home.",
-    },
-    {
-      image: "/assets/img/project_thumb_10.jpg",
-      name: "ZEN HAVEN",
-      location: "PALO ALTO, CA",
-      description:
-        "This modern garden blends minimalist design with nature for a peaceful retreat.",
-    },
-    {
-      image: "/assets/img/project_thumb_11.jpg",
-      name: "URBAN EDEN",
-      location: "SAN FRANCISCO, CA",
-      description:
-        "An urban backyard transformed into a vibrant, green escape with blooming flowers and winding paths.",
-    },
-  ],
-};
+// const worksData = {
+//   title: "BLOGS AND PRESS <span>RELEASES</span>",
+//   subtitle: "WORKS",
+//   slides: [
+//     {
+//       image: "/assets/img/project_thumb_9.jpg",
+//       name: "SERENE RETREAT",
+//       location: "SUNNYVALE, CA",
+//       description:
+//         "A tranquil garden oasis perfect for your relaxation time with family or alone within your comfortable home.",
+//     },
+//     {
+//       image: "/assets/img/project_thumb_10.jpg",
+//       name: "ZEN HAVEN",
+//       location: "PALO ALTO, CA",
+//       description:
+//         "This modern garden blends minimalist design with nature for a peaceful retreat.",
+//     },
+//     {
+//       image: "/assets/img/project_thumb_11.jpg",
+//       name: "URBAN EDEN",
+//       location: "SAN FRANCISCO, CA",
+//       description:
+//         "An urban backyard transformed into a vibrant, green escape with blooming flowers and winding paths.",
+//     },
+//   ],
+// };
 
 const ctaData = {
   backgroundImage: "/assets/img/cta_bg.jpg",

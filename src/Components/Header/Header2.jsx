@@ -27,7 +27,7 @@ const Header2 = () => {
   const [isShowMobileMenu, setIsShowMobileMenu] = useState(false);
   const [openMobileSubmenuIndex, setOpenMobileSubmenuIndex] = useState([]);
   const [isSticky, setIsSticky] = useState();
-  const [isSearchActive, setIsSearchActive] = useState(false);
+  // const [isSearchActive, setIsSearchActive] = useState(false);
 
   const handleOpenMobileSubmenu = (index) => {
     if (openMobileSubmenuIndex.includes(index)) {
