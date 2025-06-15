@@ -36,7 +36,7 @@ const data = {
   ],
   copyright: "Natraj Hydrocarbons © 2025. ALL RIGHTS RESERVED.",
   bottomLinks: [
-    { label: "Powered by Anhad Technocrafts", url: "/" },
+    { label: "Powered with ❤️ by Anhad Technocrafts", url: "/" },
     // { label: "TERMS & CONDITION", url: "/" },
   ],
 };

@@ -50,7 +50,7 @@ const valueData = {
 
 const featureData = {
   sectionTitle: "Why <br/><span>RDF</span> Fuel?",
-  buttonText: "Get RDF Fuel Estimate",
+  buttonText: "Get Super Fuel",
   buttonUrl: "/services",
   image: "/assets/img/oil_in_hand.png",
   features: [
@@ -85,7 +85,7 @@ const workingProcessData = {
   sectionTitle: "From <span>Trash to Tank</span> - How It Works",
 
   subtitle: "HOW IT WORKS",
-  logo: "/assets/img/logo.svg",
+  logo: "/assets/img/nhc_logo_small_no_bg.png",
   steps: [
     {
       title: "01 | Collect Waste Plastic",
