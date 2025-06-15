@@ -227,7 +227,7 @@ const ctaData = {
 };
 
 export default function HomePage() {
-  pageTitle("Nature");
+  pageTitle("Natraj Hydrocarbons");
   return (
     <>
       <HeroSection data={heroData} />
