@@ -13,7 +13,7 @@ export default function HeroSection({ data }) {
       <section className="cs_hero cs_style_1 cs_heading_bg cs_white_color">
         <div className="container">
           <div className="cs_hero_in">
-            <div className="cs_hero_text">
+            <div className="cs_hero_text" style={{width: "100%"}}>
               <h1
                 className="cs_hero_title cs_fs_60 cs_normal cs_mb_6 cs_white_color cs_gradient_color_1 wow fadeInUp"
                 data-aos="fade-up"
