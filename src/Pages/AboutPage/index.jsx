@@ -13,6 +13,10 @@ import CTASection from "../../Components/CTASection";
 import AnimatedTimeline from "../../Components/Aboutus/AnimatedTimeline";
 import CoreValuesSection from "../../Components/Aboutus/CoreValuesSection";
 
+
+import { useEffect } from "react";
+import Aos from "aos";
+
 const BreadcrumbsData = {
   backgroundImage: "/assets/img/about_heading_bg.jpg",
   title: "ABOUT US",
@@ -224,6 +228,17 @@ const ctaData = {
 };
 
 export default function AboutPage() {
+
+  useEffect(() => {
+    Aos.init({
+      disable: 'mobile',
+      duration: 1200,
+      delay: 0.2,
+      once: true
+    });
+    return () => Aos.refreshHard(); // Cleanup function
+  }, []);
+
   pageTitle("About Us | NHC");
   return (
     <>
@@ -261,7 +276,7 @@ export default function AboutPage() {
       {/* <hr className="conditional_pageflow_hr" /> */}
 
       {/* Our Story Stuff/ Timeline */}
-       <section>
+      <section>
         <div className="cs_height_100 cs_height_lg_70" />
         <div className="container">
           <div className="cs_slider cs_style_1 cs_slider_gap_24">

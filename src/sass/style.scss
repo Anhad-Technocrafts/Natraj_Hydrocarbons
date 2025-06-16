@@ -207,4 +207,21 @@
 .valueCard {
   border: 1px solid var(--heading-color);
   border-radius: 20px;
+  @media (max-width: 500px) {
+    width: 100%;
+    max-width: 100% !important;
+  }
+}
+
+.headerGetSuperFuelButton{
+  @media (max-width: 500px) {
+      display: none !important;
+  }
+}
+
+.textUnderline{
+  text-decoration: underline;
+}
+.displayBlock{
+  display: block;
 }

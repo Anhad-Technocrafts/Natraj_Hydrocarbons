@@ -57,9 +57,8 @@ const Header = () => {
   return (
     <>
       <header
-        className={`cs_site_header cs_style_1 cs_sticky_header ${
-          isSticky ? isSticky : ""
-        }`}
+        className={`cs_site_header cs_style_1 cs_sticky_header header1 ${isSticky ? isSticky : ""
+          }`}
       >
         <div className="cs_main_header">
           <div className="container">
@@ -72,9 +71,8 @@ const Header = () => {
               <div className="cs_main_header_center">
                 <div className="cs_nav cs_heading_color">
                   <nav
-                    className={`cs_nav_list_wrap text-uppercase ${
-                      isShowMobileMenu ? "cs_active" : ""
-                    }`}
+                    className={`cs_nav_list_wrap text-uppercase ${isShowMobileMenu ? "cs_active" : ""
+                      }`}
                   >
                     <ul className={`cs_nav_list`}>
                       {data.menuItems.map((item, index) => (
@@ -108,11 +106,10 @@ const Header = () => {
                                 ))}
                               </ul>
                               <span
-                                className={`cs_munu_dropdown_toggle ${
-                                  openMobileSubmenuIndex.includes(index)
+                                className={`cs_munu_dropdown_toggle ${openMobileSubmenuIndex.includes(index)
                                     ? "active"
                                     : ""
-                                }`}
+                                  }`}
                                 onClick={() => handleOpenMobileSubmenu(index)}
                               >
                                 <span />
@@ -124,9 +121,8 @@ const Header = () => {
                     </ul>
                   </nav>
                   <span
-                    className={`cs_menu_toggle ${
-                      isShowMobileMenu && "cs_toggle_active"
-                    }`}
+                    className={`cs_menu_toggle ${isShowMobileMenu && "cs_toggle_active"
+                      }`}
                     onClick={() => setIsShowMobileMenu(!isShowMobileMenu)}
                   >
                     <span></span>
@@ -175,9 +171,11 @@ const Header = () => {
                     </svg>
                   </button>
                 </div> */}
-                <div className="cus_header_action_btn cs_btn cs_style_1 cs_bold cs_heading_color cs_white_bg wow fadeInLeft aos-init aos-animate ">
-                  Get Super Fuel
-                </div>
+                <Link to="/contact">
+                  <div className="cus_header_action_btn cs_btn cs_style_1 cs_bold cs_heading_color cs_white_bg wow fadeInLeft aos-init aos-animate headerGetSuperFuelButton">
+                    Get Super Fuel
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

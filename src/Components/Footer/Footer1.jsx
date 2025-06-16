@@ -49,12 +49,14 @@ export default function Footer1() {
           <div className="cs_footer_col">
             <div className="cs_footer_widget">
               <div className="cs_text_widget">
+                <Link className="" to={data.logoUrl}>
                 <img
                   data-aos="zoom-in"
                   src={data.logo}
                   alt="Logo"
                   className="wow zoomIn"
                 />
+                </Link>
               </div>
             </div>
           </div>

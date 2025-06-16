@@ -23,24 +23,34 @@ import Error404 from "./Pages/Error404";
 
 
 function App() {
-  Aos.init({
-    duration: 1200,
-    delay: 0.2,
-    disable: "mobile",
-    once: true,
-  });
+  // Aos.init({
+  //   duration: 1200,
+  //   delay: 0.2,
+  //   disable: window.innerWidth < 1024,
+  //   once: true
+  // });
   const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+  
+  useEffect(() => {
+    Aos.init({
+      disable: 'mobile',
+      duration: 1200,
+      delay: 0.2,
+      once: true
+    });
+    return () => Aos.refreshHard(); // Cleanup function
+  }, []);
 
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout1 />}>
           <Route index element={<HomePage />} />
-          
+
           {/* Template Pages */}
           {/* <Route path="/services" element={<ServicePage />} /> */}
         </Route>
@@ -68,7 +78,7 @@ function App() {
         {/* <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} /> */}
-        
+
         <Route path="*" element={<Error404 />} />
       </Routes>
     </>
