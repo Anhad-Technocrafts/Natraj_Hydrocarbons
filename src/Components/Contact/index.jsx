@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function ContactSection({ data }) {
+
+  const [contactName,setContactName] = useState("");
+  const [contactEmail,setContactEmail] = useState("");
+  const [contactMsg,setContactMsg] = useState("");
+
+
+  function logSubmit(event) {
+    event.preventDefault();
+    let data = {
+      name: contactName,
+      email: contactEmail,
+      msg: contactMsg
+    }
+    console.log(`Form Submitted! Timestamp: `,data);
+  }
+
+
   return (
     <section>
       <div className="cs_height_100 cs_height_lg_70" />
@@ -20,10 +37,11 @@ export default function ContactSection({ data }) {
                 ></h2>
               </div>
               <form
-                action="https://api.web3forms.com/submit"
+                action="" //https://api.web3forms.com/submit
                 method="POST"
                 className="row cs_gap_y_24"
                 id="cs_form"
+                onSubmit={logSubmit}
               >
                 <input
                   type="hidden"
@@ -37,6 +55,7 @@ export default function ContactSection({ data }) {
                     className="cs_form_field"
                     placeholder="Name"
                     required=""
+                    onChange={(e) => setContactName(e.target.value)}
                   />
                 </div>
                 <div className="col-sm-6">
@@ -46,6 +65,8 @@ export default function ContactSection({ data }) {
                     className="cs_form_field"
                     placeholder="Email"
                     required=""
+                    onChange={(e) => setContactEmail(e.target.value)}
+                    
                   />
                 </div>
                 <div className="col-lg-12">
@@ -56,6 +77,7 @@ export default function ContactSection({ data }) {
                     rows={5}
                     required=""
                     defaultValue={""}
+                    onChange={(e) => setContactMsg(e.target.value)}
                   />
                 </div>
                 <div className="col-lg-12">
@@ -79,9 +101,9 @@ export default function ContactSection({ data }) {
                 {data.contactList.map((item, index) => (
                   <li key={index}>
                     <p className="mb-0">{item.label}</p>
-                    <h4 
+                    <h4
                       className="mb-0 cs_fs_20 cs_bold"
-                      dangerouslySetInnerHTML={{ __html: item.value }}  
+                      dangerouslySetInnerHTML={{ __html: item.value }}
                     ></h4>
                   </li>
                 ))}

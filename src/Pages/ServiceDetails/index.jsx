@@ -14,7 +14,7 @@ const serviceDetailsData = {
   ],
   titleHighlight: "RDF Oil",
   video: {
-    url: "https://www.youtube.com/embed/rRid6GCJtgc",
+    url: "/assets/videos/nhc_feature_video.mp4", //https://www.youtube.com/embed/rRid6GCJtgc
     bgImage: "/assets/img/video_block_bg_2.jpg",
   },
   cta: {
@@ -27,6 +27,8 @@ const serviceDetailsData = {
 From steel plants to textile units, industries across India are switching to RDF Oil to cut costs — and carbon.
 
   `,
+  brochureButtonText: "Download Brochure",
+  brochureButtonUrl: "/assets/Natraj_Hydrocarbons_Brochure.pdf",
   iconBoxes: [
     {
       iconClass: "fa6-solid:hand-holding-droplet",

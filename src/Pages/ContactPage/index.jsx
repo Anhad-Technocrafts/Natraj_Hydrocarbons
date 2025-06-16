@@ -1,3 +1,6 @@
+
+import { useEffect } from "react";
+import Aos from "aos";
 import React from "react";
 import PageHeading from "../../Components/PageHeading";
 import ContactSection from "../../Components/Contact";
@@ -5,6 +8,17 @@ import CardSection from "../../Components/CardSection";
 import { pageTitle } from "../../helper";
 
 export default function ContactPage() {
+
+  useEffect(() => {
+      Aos.init({
+        disable: 'mobile',
+        duration: 1200,
+        delay: 0.2,
+        once: true
+      });
+      return () => Aos.refreshHard(); // Cleanup function
+    }, []);
+    
   const BreadcrumbsData = {
     backgroundImage: "/assets/img/about_heading_bg.jpg",
     title: "CONTACT US",

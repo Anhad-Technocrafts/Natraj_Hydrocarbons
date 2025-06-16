@@ -12,25 +12,30 @@ const TechnicalSpecifications = () => {
   ];
 
   return (
-    <div className="technical-specs-container" style={{ padding: "50px" }}>
-      <h2>TECHNICAL SPECIFICATIONS</h2>
-      <table style={{ width: "100%", borderCollapse: "collapse" }}>
-        <thead>
-          <tr>
-            <th style={thStyle}>Property</th>
-            <th style={thStyle}>RDF Oil Value</th>
-          </tr>
-        </thead>
-        <tbody>
-          {specs.map((row, index) => (
-            <tr key={index}>
-              <td style={tdStyle}>{row.property}</td>
-              <td style={tdStyle}>{row.value}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+    <section>
+      <div className="container">
+        <div className="technical-specs-container">
+          <h2>TECHNICAL SPECIFICATIONS</h2>
+          <table style={{ width: "100%", borderCollapse: "collapse" }}>
+            <thead>
+              <tr>
+                <th style={thStyle}>Property</th>
+                <th style={thStyle}>RDF Oil Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              {specs.map((row, index) => (
+                <tr key={index}>
+                  <td style={tdStyle}>{row.property}</td>
+                  <td style={tdStyle}>{row.value}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div className="cs_height_85 cs_height_lg_40 " />
+    </section>
   );
 };
 

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const data = {
   logo: "/assets/img/nhc_logo_small_no_bg.png",
+  logoUrl: "/",
   newsletterText:
     " Stay updated with our latest <br /> projects and gardening tips.",
   menus: [
@@ -49,12 +50,14 @@ export default function Footer() {
           <div className="cs_footer_col">
             <div className="cs_footer_widget">
               <div className="cs_text_widget">
+                <Link className="" to={data.logoUrl}>
                 <img
                   data-aos="zoom-in"
                   src={data.logo}
                   alt="Logo"
                   className="wow zoomIn"
                 />
+                </Link>
               </div>
             </div>
           </div>

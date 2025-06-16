@@ -20,9 +20,9 @@ export default function ServiceDetailsSection({ data }) {
   };
   return (
     <section>
-      <div className="cs_height_125 cs_height_lg_80" />
-      <div className="container">
-        <div className="row cs_gap_x_40 cs_gap_y_30">
+      <div className="cs_height_125 cs_height_lg_80 " />
+      <div className="container serviceDetailsContainer">
+        <div className="row cs_gap_x_40 cs_gap_y_30 ">
           <div className="col-lg-7">
             <div className="cs_page_heading cs_style_2">
               <ol className="breadcrumb">
@@ -95,12 +95,21 @@ export default function ServiceDetailsSection({ data }) {
               className="cs_fs_20"
               dangerouslySetInnerHTML={{ __html: data.description }}
             ></div>
+             <a
+                  href={data.brochureButtonUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-aos="fade-left"
+                  className="cus_header_action_btn textUnderline cs_btn displayBlock cs_bold cs_heading_color wow fadeInLeft aos-init aos-animate mt-3"
+                >
+                  {data.brochureButtonText}
+                </a>
           </div>
           <div className="col-xl-5">
             <div className="row cs_gap_x_20 cs_gap_y_20">
               {data.iconBoxes.map((box, index) => (
                 <div className="col-sm-6" key={index}>
-                  <div className="cs_iconbox cs_style_2">
+                  <div className="cs_iconbox cs_style_2" style={{height: '100%'}}>
                     <div className="cs_iconbox_icon">
                       <i className="d-inline-flex">
                         <Icon icon={box.iconClass} maxWidth="30" height="26" />

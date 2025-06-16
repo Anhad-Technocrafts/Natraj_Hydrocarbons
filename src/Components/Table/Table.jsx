@@ -40,27 +40,32 @@ const ComparisonTable = () => {
   ];
 
   return (
-    <div className="comparison-table-container" style={{ padding: "50px" }}>
-      <h2>HOW WE COMPARE (Subtle Market Positioning)</h2>
-      <table style={{ width: "100%", borderCollapse: "collapse" }}>
-        <thead>
-          <tr>
-            <th style={thStyle}>Feature</th>
-            <th style={thStyle}>Our RDF Oil</th>
-            <th style={thStyle}>Other Market Options</th>
-          </tr>
-        </thead>
-        <tbody>
-          {tableData.map((row, index) => (
-            <tr key={index}>
-              <td style={tdStyle}>{row.feature}</td>
-              <td style={tdStyle}>{row.ourRDFOil}</td>
-              <td style={tdStyle}>{row.otherOptions}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+    <section>
+      <div className="container">
+        <div className="comparison-table-container">
+          <h2>HOW WE COMPARE (Subtle Market Positioning)</h2>
+          <table style={{ width: "100%", borderCollapse: "collapse" }}>
+            <thead>
+              <tr>
+                <th style={thStyle}>Feature</th>
+                <th style={thStyle}>Our RDF Oil</th>
+                <th style={thStyle}>Other Market Options</th>
+              </tr>
+            </thead>
+            <tbody>
+              {tableData.map((row, index) => (
+                <tr key={index}>
+                  <td style={tdStyle}>{row.feature}</td>
+                  <td style={tdStyle}>{row.ourRDFOil}</td>
+                  <td style={tdStyle}>{row.otherOptions}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div className="cs_height_85 cs_height_lg_40 " />
+    </section>
   );
 };
 

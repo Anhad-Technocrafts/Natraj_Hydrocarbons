@@ -125,7 +125,7 @@
   }
   &.cs_color_1 {
     &.cs_sticky_active {
-      background-color: var(--white-color);
+      // background-color: var(--white-color);
       box-shadow: 0 10px 10px -10px rgb(55 72 54 / 6%);
     }
   }
@@ -162,6 +162,13 @@
     overflow: hidden;
     transition: all 0.3s ease;
   }
+}
+.header2{
+   background-color: var(--heading-color);
+    box-shadow: 0 10px 10px -10px rgba(255, 255, 255, 0.06);
+    .cs_main_header_in {
+      height: 80px;
+    }
 }
 
 .cs_site_branding {

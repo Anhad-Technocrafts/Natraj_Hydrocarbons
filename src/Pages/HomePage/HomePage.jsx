@@ -9,6 +9,9 @@ import WorksSection from "../../Components/WorksSection";
 import CTASection from "../../Components/CTASection";
 import { pageTitle } from "../../helper";
 
+import { useEffect } from "react";
+import Aos from "aos";
+
 const heroData = {
   // title: "FROM TRASH <b>TO SUPER FUEL</b>",
   title: "NATRAJ HYDROCARBONS",
@@ -41,7 +44,7 @@ const heroData = {
 const valueData = {
   sectionTitle: "VALUES",
   values: [
-    { value: '1800+', text: "Tons of Plastic Waste Processed" }, 
+    { value: '1800+', text: "Tons of Plastic Waste Processed" },
     { value: '150K+', text: "Litres per Month of Clean Fuel Produced" },
     { value: '100%', text: "Repeat Orders from Industrial Clients" },
     // { value: '0*', text: "Sulphur in Every Litre" }
@@ -226,7 +229,19 @@ const ctaData = {
   buttonUrl: "/contact",
 };
 
+
+
 export default function HomePage() {
+  useEffect(() => {
+    Aos.init({
+      disable: 'mobile',
+      duration: 1200,
+      delay: 0.2,
+      once: true
+    });
+    return () => Aos.refreshHard(); // Cleanup function
+  }, []);
+
   pageTitle("Natraj Hydrocarbons");
   return (
     <>
