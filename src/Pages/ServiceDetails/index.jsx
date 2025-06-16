@@ -19,7 +19,7 @@ const serviceDetailsData = {
   },
   cta: {
     buttonUrl: "#",
-    buttonText: "See More",
+    // buttonText: "See More",
     bgImage: "/assets/img/cta_bg_4.jpg",
   },
   description: `

@@ -12,7 +12,7 @@ const TechnicalSpecifications = () => {
   ];
 
   return (
-    <div className="technical-specs-container" style={{ padding: "50px" }}>
+    <div className="technical-specs-container container" style={{ paddingTop: "50px" }}>
       <h2>TECHNICAL SPECIFICATIONS</h2>
       <table style={{ width: "100%", borderCollapse: "collapse" }}>
         <thead>
