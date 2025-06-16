@@ -20,7 +20,7 @@ export default function ContactPage() {
     }, []);
     
   const BreadcrumbsData = {
-    backgroundImage: "/assets/img/about_heading_bg.jpg",
+    backgroundImage: "/assets/img/contact_heading_bg.jpg",
     title: "CONTACT US",
     breadcrumbs: [
       { label: "Home", link: "/" },

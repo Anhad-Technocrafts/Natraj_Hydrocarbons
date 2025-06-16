@@ -41,7 +41,7 @@ const aboutUsData = {
   cta: {
     backgroundImage: "/assets/img/cta_bg_3.jpg",
     buttonUrl: "/projects",
-    buttonText: "Explore Projects",
+    // buttonText: "Explore Now",
   },
 };
 

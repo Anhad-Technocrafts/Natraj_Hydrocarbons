@@ -44,7 +44,7 @@ const data = {
 
 export default function Footer() {
   return (
-    <footer className={`cs_footer cs_style_1 cs_color_1`}>
+    <footer className={`cs_footer cs_style_1 cs_color_1 `}>
       <div className="container">
         <div className="cs_footer_row">
           <div className="cs_footer_col">
@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
 
         <div className="cs_bottom_footer">
-          <div className="cs_bottom_footer_left" data-aos="fade-right">
+          <div className="cs_bottom_footer_left " data-aos="fade-right">
             <div
               className="cs_copyright"
               dangerouslySetInnerHTML={{ __html: data.copyright }}

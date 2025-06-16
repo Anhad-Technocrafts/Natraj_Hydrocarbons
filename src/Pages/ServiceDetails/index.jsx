@@ -19,7 +19,7 @@ const serviceDetailsData = {
   },
   cta: {
     buttonUrl: "#",
-    buttonText: "See More",
+    // buttonText: "See More",
     bgImage: "/assets/img/cta_bg_4.jpg",
   },
   description: `
@@ -61,7 +61,7 @@ const workingProcessData = {
   sectionTitle: "INDUSTRIES <span>USING</span> RDF OIL ",
 
   subtitle: "HOW IT WORKS",
-  logo: "/assets/img/logo.svg",
+  logo: "/assets/img/nhc_logo_small_no_bg.png",
   steps: [
     {
       title: "01 | Zero Sulphur Content",

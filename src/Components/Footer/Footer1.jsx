@@ -78,7 +78,7 @@ export default function Footer1() {
         </div>
 
         <div className="cs_bottom_footer">
-          <div className="cs_bottom_footer_left" data-aos="fade-right">
+          <div className="cs_bottom_footer_left " data-aos="fade-right">
             <div
               className="cs_copyright"
               dangerouslySetInnerHTML={{ __html: data.copyright }}

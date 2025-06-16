@@ -33,7 +33,7 @@ export default function BlogSection({ data }) {
                 to={post.link}
                 className="cs_btn cs_style_2 cs_bold cs_heading_color"
               >
-                See More
+               
               </Link>
             </div>
           </div>
