@@ -28,7 +28,7 @@ From steel plants to textile units, industries across India are switching to RDF
 
   `,
   brochureButtonText: "Download Brochure",
-  brochureButtonUrl: "/assets/Natraj_Hydrocarbons_Brochure.pdf",
+  brochureButtonUrl: "/assets/Nataraj_Hydrocarbons_Brochure.pdf",
   iconBoxes: [
     {
       iconClass: "fa6-solid:hand-holding-droplet",

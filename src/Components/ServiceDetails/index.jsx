@@ -95,15 +95,20 @@ export default function ServiceDetailsSection({ data }) {
               className="cs_fs_20"
               dangerouslySetInnerHTML={{ __html: data.description }}
             ></div>
-             <a
-                  href={data.brochureButtonUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-aos="fade-left"
-                  className="cus_header_action_btn textUnderline cs_btn displayBlock cs_bold cs_heading_color wow fadeInLeft aos-init aos-animate mt-3"
-                >
-                  {data.brochureButtonText}
-                </a>
+            
+            <div className="aboutBrochureBtnContainer mt-4 mb-4">
+              <a
+                href={data.brochureButtonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-aos="fade-left"
+                className="cus_brochure_btn cs_btn displayBlock cs_style_1 cs_bold cs_heading_color wow fadeInLeft aos-init aos-animate mt-3"
+                
+              >
+                {data.brochureButtonText}
+              </a>
+            </div>  
+            <hr />
           </div>
           <div className="col-xl-5">
             <div className="row cs_gap_x_20 cs_gap_y_20">
