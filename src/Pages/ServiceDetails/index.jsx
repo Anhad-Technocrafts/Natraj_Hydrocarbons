@@ -118,7 +118,7 @@ const workingProcessData = {
 // };
 
 export default function ServiceDetailsPage() {
-  pageTitle("Service Details | NHC");
+  pageTitle("Superfuel (RDF) | NHC");
   return (
     <>
       <ServiceDetailsSection data={serviceDetailsData} />{" "}
