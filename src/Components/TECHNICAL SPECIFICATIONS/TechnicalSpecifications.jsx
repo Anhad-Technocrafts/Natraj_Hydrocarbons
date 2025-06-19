@@ -6,7 +6,7 @@ const TechnicalSpecifications = () => {
     { property: "Calorific Value", value: "~10,500 kcal/kg" },
     { property: "Sulphur Content", value: "0%" },
     { property: "Moisture Content", value: "<1%" },
-    { property: "Flash Point", value: "60–65°C" },
+    { property: "Flash Point", value: "35°C" },
     { property: "Ash Content", value: "Negligible" },
     { property: "Viscosity", value: "Customizable as per client" },
   ];

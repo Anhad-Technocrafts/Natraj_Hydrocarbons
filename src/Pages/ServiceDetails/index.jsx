@@ -12,6 +12,7 @@ const serviceDetailsData = {
     // { label: "Services", url: "/services" },
     { label: "Super Fuel" },
   ],
+  text:"TRASH TRANSFORMED. ENERGY DELIVERED.<br> (The science behind our sulphur-free RDF Oil.)",
   titleHighlight: "RDF Oil",
   video: {
     url: "/assets/videos/nhc_feature_video.mp4", //https://www.youtube.com/embed/rRid6GCJtgc
