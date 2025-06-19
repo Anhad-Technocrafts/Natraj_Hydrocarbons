@@ -9,7 +9,7 @@ const data = {
     {
       title: "SUPPORT",
       links: [
-        { label: "CONTACT", url: "/contact" },
+        { label: "CONTACT US", url: "/contact" },
         // { label: "USER GUIDE", url: "/" },
         // { label: "TESTIMONIAL", url: "/" },
         // { label: "CUSTOMER", url: "/" },
@@ -35,7 +35,7 @@ const data = {
       ],
     },
   ],
-  copyright: "Natraj Hydrocarbons © 2025. ALL RIGHTS RESERVED.",
+  copyright: "Nataraj Hydrocarbons © 2025. ALL RIGHTS RESERVED.",
   bottomLinks: [
     { label: "Powered with ❤️ by Anhad Technocrafts", url: "/" },
     // { label: "TERMS & CONDITION", url: "/" },

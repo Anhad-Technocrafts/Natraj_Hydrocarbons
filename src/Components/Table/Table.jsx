@@ -43,7 +43,7 @@ const ComparisonTable = () => {
     <section>
       <div className="container">
         <div className="comparison-table-container">
-          <h2>HOW WE COMPARE (Subtle Market Positioning)</h2>
+          <h2>HOW WE COMPARE</h2>
           <table style={{ width: "100%", borderCollapse: "collapse" }}>
             <thead>
               <tr>

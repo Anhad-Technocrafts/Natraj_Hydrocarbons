@@ -7,8 +7,8 @@ const data = {
   logoUrl: "/",
   menuItems: [
     { label: "SUPER FUEL", href: "/superfuel" },
-    { label: "ABOUT", href: "/about" },
-    { label: "CONTACT", href: "/contact" },
+    { label: "ABOUT US", href: "/about" },
+    { label: "CONTACT US", href: "/contact" },
     // { label: "SERVICES", href: "/services" },
     // { label: "PROJECTS", href: "/projects" },
     // {
@@ -17,7 +17,7 @@ const data = {
     //   children: [
     //     { label: "GALLERY", href: "/gallery" },
     //     { label: "BLOG", href: "/blog" },
-    //     { label: "CONTACT", href: "/contact" },
+    //     { label: "CONTACT US", href: "/contact" },
     //   ],
     // },
   ],
@@ -74,7 +74,7 @@ const Header2 = () => {
                     className={`cs_nav_list_wrap text-uppercase ${isShowMobileMenu ? "cs_active" : ""
                       }`}
                   >
-                    <ul className={`cs_nav_list`}>
+                    <ul className={`cs_nav_list textWhite`}>
                       {data.menuItems.map((item, index) => (
                         <li
                           key={index}
@@ -82,7 +82,7 @@ const Header2 = () => {
                             item.children ? "menu-item-has-children" : ""
                           }
                         >
-                          <Link to={item.href}>{item.label}</Link>
+                          <Link to={item.href}><span className="textWhite">{item.label}</span></Link>
                           {item.children && (
                             <>
                               <ul

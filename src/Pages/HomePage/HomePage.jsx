@@ -14,13 +14,13 @@ import Aos from "aos";
 
 const heroData = {
   // title: "FROM TRASH <b>TO SUPER FUEL</b>",
-  title: "NATRAJ HYDROCARBONS",
+  title: "NATARAJ HYDROCARBONS",
   subtitle:
     "Harnessing Advance Technology, we convert non-recyclable plastic waste to sustainable, eco-friendly, high-performing RDF Fuel (or Super Fuel) for factories — saving costs, cutting emissions, and closing the loop.",
   btnText1: "Get Super Fuel",
   btnUrl1: "/contact",
   btnText2: "Download Brochure",
-  btnUrl2: "/assets/Natraj_Hydrocarbons_Brochure.pdf",
+  btnUrl2: "/assets/Nataraj_Hydrocarbons_Brochure.pdf",
 
   funfact: {
     number: "500+",
@@ -242,7 +242,7 @@ export default function HomePage() {
     return () => Aos.refreshHard(); // Cleanup function
   }, []);
 
-  pageTitle("Natraj Hydrocarbons");
+  pageTitle("Nataraj Hydrocarbons");
   return (
     <>
       <HeroSection data={heroData} />

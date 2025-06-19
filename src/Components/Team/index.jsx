@@ -6,8 +6,8 @@ export default function TeamMember({ data }) {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   const swiperRef = useRef(null);
-  const [currentSlide, setCurrentSlide] = useState(1);
-  const [isSwiperReady, setIsSwiperReady] = useState(false);
+  // const [currentSlide, setCurrentSlide] = useState(1);
+  const [isSwiperReady, _] = useState(false);
 
   useEffect(() => {
     if (isSwiperReady && swiperRef.current) {
@@ -89,6 +89,8 @@ export default function TeamMember({ data }) {
                           src={member.img}
                           alt={member.name}
                           className="cs_team_member_img"
+                          object-fit="cover"
+
                         />
                         <div className="cs_team_member_info">
                           <h3

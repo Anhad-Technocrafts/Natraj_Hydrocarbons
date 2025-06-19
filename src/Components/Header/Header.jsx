@@ -7,8 +7,8 @@ const data = {
   logoUrl: "/",
   menuItems: [
     { label: "SUPER FUEL", href: "/superfuel" },
-    { label: "ABOUT", href: "/about" },
-    { label: "CONTACT", href: "/contact" },
+    { label: "ABOUT US", href: "/about" },
+    { label: "CONTACT US", href: "/contact" },
     // { label: "SERVICES", href: "/services" },
     // { label: "PROJECTS", href: "/projects" },
     // {
@@ -17,7 +17,7 @@ const data = {
     //   children: [
     //     { label: "GALLERY", href: "/gallery" },
     //     { label: "BLOG", href: "/blog" },
-    //     { label: "CONTACT", href: "/contact" },
+    //     { label: "CONTACT US", href: "/contact" },
     //   ],
     // },
   ],

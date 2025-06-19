@@ -45,50 +45,50 @@ const aboutUsData = {
   },
 };
 
-const valueData = {
-  sectionTitle: "VALUES",
-  values: [{ text: "Landscape Design" }, { text: "Indoor Garden" }],
-};
+// const valueData = {
+//   sectionTitle: "VALUES",
+//   values: [{ text: "Landscape Design" }, { text: "Indoor Garden" }],
+// };
 
-const featureData = {
-  sectionTitle: "OUR <span>TIMELINE </span> <br>AT A GLANCE</br> ",
-  buttonText: "Our Products",
-  buttonUrl: "/services",
-  image: "/assets/img/feature_thumb.jpg",
-  features: [
-    {
-      icon: "fa6-regular:heart",
-      title: "Founding And Origins",
-      description:
-        "2022 – Founded in Kolkata by Rahul Bansal & Nitish Jain",
-    },
-    {
-      icon: "fa6-solid:link",
-      title: "Technology Development",
-      description:
-        "In-house pyrolysis reactors developed & tested",
-    },
-    {
-      icon: "fa6-solid:layer-group",
-      title: "Initial Production Capacity",
-      description:
-        "Initial production capacity: 50,000 litres/month",
-    },
-    {
-      icon: "fa6-brands:ubuntu",
-      title: "Client Retention",
-      description:
-        "100% repeat client orders from industrial buyers",
-    },
+// const featureData = {
+//   sectionTitle: "OUR <span>TIMELINE </span> <br>AT A GLANCE</br> ",
+//   buttonText: "Our Products",
+//   buttonUrl: "/services",
+//   image: "/assets/img/feature_thumb.jpg",
+//   features: [
+//     {
+//       icon: "fa6-regular:heart",
+//       title: "Founding And Origins",
+//       description:
+//         "2022 – Founded in Kolkata by Rahul Bansal & Nitish Jain",
+//     },
+//     {
+//       icon: "fa6-solid:link",
+//       title: "Technology Development",
+//       description:
+//         "In-house pyrolysis reactors developed & tested",
+//     },
+//     {
+//       icon: "fa6-solid:layer-group",
+//       title: "Initial Production Capacity",
+//       description:
+//         "Initial production capacity: 50,000 litres/month",
+//     },
+//     {
+//       icon: "fa6-brands:ubuntu",
+//       title: "Client Retention",
+//       description:
+//         "100% repeat client orders from industrial buyers",
+//     },
 
-    {
-      icon: "fa6-brands:ubuntu",
-      title: "Scaling And Growth Projection",
-      description:
-        "Now scaled to 150,000+ litres/month, expanding to 350,000 litres/month in FY26",
-    },
-  ],
-};
+//     {
+//       icon: "fa6-brands:ubuntu",
+//       title: "Scaling And Growth Projection",
+//       description:
+//         "Now scaled to 150,000+ litres/month, expanding to 350,000 litres/month in FY26",
+//     },
+//   ],
+// };
 
 const teamMembersData = {
   title: `Our Team <br>`,
@@ -174,12 +174,12 @@ const WorkingData = {
   ],
 };
 
-const cardData = {
-  backgroundImage: "/assets/img/card_bg.jpg",
-  tags: ["Home", "Garden", "Landscape Design", "Expert"],
-  title: "MAKE YOUR DREAM <br /> GARDEN INTO REALITY",
-  buttonLink: "/projects",
-};
+// const cardData = {
+//   backgroundImage: "/assets/img/card_bg.jpg",
+//   tags: ["Home", "Garden", "Landscape Design", "Expert"],
+//   title: "MAKE YOUR DREAM <br /> GARDEN INTO REALITY",
+//   buttonLink: "/projects",
+// };
 
 const VisionUsData = {
   title: `VISION`,

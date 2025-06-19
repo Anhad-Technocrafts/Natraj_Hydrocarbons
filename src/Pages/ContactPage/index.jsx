@@ -34,7 +34,7 @@ export default function ContactPage() {
     contactList: [
       {
         label: "EMAIL",
-        value: "sales@nhcoil.com",
+        value: "info@nhcoil.com",
       },
       {
         label: "Contact",
