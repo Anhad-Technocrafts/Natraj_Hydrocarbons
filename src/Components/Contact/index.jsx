@@ -34,7 +34,7 @@ export default function ContactSection({ data }) {
     setIsEmailSend(true);
     let payload = {
       "email": [contactEmail],
-      "subject": "Test Email from Lambda",
+      // "subject": "Test Email from Lambda",
       "body": contactMsg,
       "name": contactName,
       "mobile": contactMobile
