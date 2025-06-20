@@ -116,6 +116,9 @@
     padding-left: 0;
   }
 }
+.relative{
+  position: relative;
+}
 
 .cs_opacity_1 {
   opacity: 0.1;
@@ -257,7 +260,7 @@ hr {
 }
 
 .cs_white_color {
-  color: var(--white-color);
+  color: var(--white-color) !important;
 }
 
 .cs_heading_color {
@@ -273,7 +276,7 @@ hr {
 }
 
 .cs_heading_bg {
-  background-color: var(--heading-color);
+  background-color: var(--heading-color) !important;
 }
 
 .cs_secondary_bg {
