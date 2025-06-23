@@ -3,7 +3,7 @@ import React from "react";
 const TechnicalSpecifications = () => {
   const specs = [
     { property: "Appearance", value: "Dark brown to black liquid" },
-    { property: "Calorific Value", value: "~10,500 kcal/kg" },
+    { property: "Calorific Value", value: " 11,000 kcal/kg" },
     { property: "Sulphur Content", value: "0%" },
     { property: "Moisture Content", value: "<1%" },
     { property: "Flash Point", value: "35°C" },

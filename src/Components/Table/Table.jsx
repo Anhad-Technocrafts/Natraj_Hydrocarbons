@@ -14,7 +14,7 @@ const ComparisonTable = () => {
     },
     {
       feature: "Calorific Value",
-      ourRDFOil: "~10,500 kcal/kg",
+      ourRDFOil: " 11,000 kcal/kg",
       otherOptions: "9,500 – 9,800 kcal/kg",
     },
     {
