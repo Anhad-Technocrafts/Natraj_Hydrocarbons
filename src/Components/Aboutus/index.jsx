@@ -44,11 +44,18 @@ export default function AboutUs({ data }) {
             ></p>
           </div>
         </div>
-
+ <div className="row cs_gap_y_30">
         <div className="cs_height_56 cs_height_lg_35" />
 
-        <div className="row cs_gap_y_30">
-          <div className="col-lg-4" data-aos="fade-right">
+       
+          <div className="cs_section_heading cs_style_2 cs_color_1">
+            <h2
+              className="cs_section_title cs_fs_80 mb-5"
+              data-aos="fade-down"
+              dangerouslySetInnerHTML={{ __html: "Our Journey" }}
+            />
+          </div>
+          <div className="col-lg-12" data-aos="fade-right">
             <Link
               onClick={(e) => handelClick(e)}
               className="cs_video_block cs_style_1 cs_bg_filed cs_video_open cs_center cs_radius_20"
@@ -72,16 +79,16 @@ export default function AboutUs({ data }) {
           </div>
           {
             toggle
-            ?
-            <VideoModal
-              isTrue={toggle}
-              iframeSrc={data.video.videoUrl}
-              handelClose={handelClose}
-            />
-            :
-            null
+              ?
+              <VideoModal
+                isTrue={toggle}
+                iframeSrc={data.video.videoUrl}
+                handelClose={handelClose}
+              />
+              :
+              null
           }
-          <div className="col-lg-8 t" data-aos="fade-left">
+          {/* <div className="col-lg-4 t" data-aos="fade-left">
             <div
               className="cs_cta cs_style_2 cs_bg_filed cs_radius_20"
               style={{ backgroundImage: `url(${data.cta.backgroundImage})` }}
@@ -93,7 +100,7 @@ export default function AboutUs({ data }) {
                 {data.cta.buttonText}
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="cs_height_100 cs_height_lg_70" />

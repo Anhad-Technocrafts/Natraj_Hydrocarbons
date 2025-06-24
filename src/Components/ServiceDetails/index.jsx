@@ -38,11 +38,9 @@ export default function ServiceDetailsSection({ data }) {
               </ol>
               
               <h1
-                className="cs_page_title mb-0 cs_fs_80 wow fadeInUp"
+                className="cs_page_title mb-0 cs_fs_75 wow fadeInUp"
                 dangerouslySetInnerHTML={{ __html: data.titleHighlight }}
               ></h1>
-              <h4 
-                dangerouslySetInnerHTML={{__html: data.text}}></h4>
             </div>
             <div className="cs_height_64 cs_height_lg_50" />
             <Link
