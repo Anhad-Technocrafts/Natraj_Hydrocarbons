@@ -19,6 +19,7 @@ import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import ForgotPassword from "./Pages/ForgotPassword";
 import Error404 from "./Pages/Error404";
+import TechnologyPage from "./Pages/Technology";
 
 
 
@@ -58,6 +59,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/technology" element={<TechnologyPage />} />
 
 
           {/* Template Pages */}

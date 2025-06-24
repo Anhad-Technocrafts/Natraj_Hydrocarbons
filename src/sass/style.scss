@@ -265,3 +265,90 @@
   margin-bottom: 5px;
   width: 100%;
 }
+.technologyComponent .introductionP{
+  margin-bottom: 50px !important;
+}
+.technologyComponent .introductionP:last-child{
+  margin-bottom: 0px !important;
+}
+.stepNumberText{
+  color: #374836;
+}
+.ourProcessComponent .ourProcessStepCol{
+  border-right: 2px solid rgba(0,0,0,0.2);
+}
+.ourProcessComponent .ourProcessStepCol:last-child{
+  border-right: none
+}
+.ourProcessComponent .ourProcessStepCol h5{
+  font-size: 60px;
+  color: rgba(0,0,0,0.2);
+}
+.ourProcessComponent .ourProcessStepCol h2{
+  font-size: 18px;
+  color: rgba(0,0,0,1);
+}
+.ourProcessComponent .ourProcessStepCol p{
+  font-size: 18px;
+  color: #F9FBF3;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+.ourProcessComponent .ourProcessStepCol:hover{
+  background-color: #007C74;
+}
+.ourProcessComponent .ourProcessStepCol:hover h5,
+.ourProcessComponent .ourProcessStepCol:hover h2{
+  color: #fff;
+}
+.ourProcessComponent .ourProcessStepCol:hover p{
+  opacity: 1;
+}
+.ourTechApartComponent .valueCard{
+  border-width: 2px;
+  flex: 1 1 calc(47%) !important;
+  max-width: calc(47%) !important;
+  padding: 30px 45px;
+}
+
+.technologyBrochureBtnContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 992px) {
+    justify-content: center;
+  }
+
+  .cus_brochure_btn {
+    cursor: pointer;
+    color: var(--white-color);
+    background-color: var(--heading-color);
+    border-radius: 10px;
+
+    &:hover {
+      color: var(--heading-color);
+      // background-image: linear-gradient(71deg, rgba(202,163,116,1) 4%, rgba(230,211,149,1) 15%, rgba(195,140,77,1) 28%, rgba(251,245,199,1) 40%, rgba(205,186,108,1) 56%, rgba(251,245,199,1) 74%, rgba(159,105,43,1) 90%, rgba(214,197,126,1) 100%);
+      background-color: var(--white-color);
+      border: 2px solid var(--heading-color);
+    }
+
+  }
+}
+.industrialApplicationComponent .contentImage{
+  height: 340px;
+}
+.industrialApplicationComponent h3{
+  color: rgba(55,72,54,0.8);
+  font-size: 28px;
+}
+.industrialApplicationComponent ul li{
+  color: #000;
+  font-size: 20px;
+  line-height: 26px;
+  list-style: disc;
+  margin-top: 36px;
+}
+.industrialApplicationComponent ul li::marker {
+  color: #017C74;
+}
