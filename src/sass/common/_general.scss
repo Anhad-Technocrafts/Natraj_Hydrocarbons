@@ -742,6 +742,24 @@ hr {
     height: 380px;
   }
 }
+.ourJourneyVideoDiv a{
+  height: 720px !important;
+   @media (max-width: 1400px) {
+    height: 600px !important;
+  }
+   @media (max-width: 1199px) {
+    height: 480px !important;
+  }
+  @media (max-width: 991px) {
+    height: 380px !important;
+  }
+  @media (max-width: 767px) {
+    height: 280px !important;
+  }
+   @media (max-width: 500px) {
+    height: 200px !important;
+  }
+}
 .cs_player_btn {
   position: absolute;
   z-index: 10;

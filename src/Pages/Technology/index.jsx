@@ -62,12 +62,12 @@ const ourProcessData = [
   {
     step: 1,
     title: 'Waste Plastic Collection',
-    desc: ''
+    desc: 'We source post-consumer and industrial plastic waste that’s non-recyclable and destined for landfills or incineration.'
   },
   {
     step: 2,
     title: 'Pyrolysis Conversion',
-    desc: ''
+    desc: 'Inside our in-house designed reactors, the plastic is heated without oxygen. This breaks it down into hydrocarbon vapours without releasing harmful emissions.'
   },
   {
     step: 3,
@@ -77,7 +77,7 @@ const ourProcessData = [
   {
     step: 4,
     title: 'Fuel Delivery',
-    desc: ''
+    desc: 'We deliver ready-to-use fuel to industrial partners across India, backed by 100% repeat orders and rigorous QC standards.'
   }
 ];
 
@@ -120,7 +120,7 @@ const techSpecTableData = [
   },
   {
     feature: "Calorific Value",
-    value: '~10,500 kcal/kg'
+    value: '11000 kcal/kg'
   },
   {
     feature: "Compatibility",
@@ -166,7 +166,7 @@ export default function TechnologyPage() {
                 dangerouslySetInnerHTML={{ __html: "Our Process" }}
               />
             </div>
-            <p className="cs_section_title cs_fs_32 mb-0 stepNumberText" data-aos="fade-down">In 4 Steps</p>
+            {/* <p className="cs_section_title cs_fs_32 mb-0 stepNumberText" data-aos="fade-down">In 4 Steps</p> */}
           </div>
         </div>
       </section>

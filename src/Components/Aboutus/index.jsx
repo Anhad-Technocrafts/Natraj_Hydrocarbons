@@ -55,10 +55,10 @@ export default function AboutUs({ data }) {
               dangerouslySetInnerHTML={{ __html: "Our Journey" }}
             />
           </div>
-          <div className="col-lg-12" data-aos="fade-right">
+          <div className="col-lg-12 ourJourneyVideoDiv" data-aos="fade-right">
             <Link
               onClick={(e) => handelClick(e)}
-              className="cs_video_block cs_style_1 cs_bg_filed cs_video_open cs_center cs_radius_20"
+              className="cs_video_block cs_style_1 cs_bg_filed cs_video_open cs_center cs_radius_20 "
               style={{ backgroundImage: `url(${data.video.backgroundImage})` }}
             >
               <span className="cs_player_btn cs_heading_color">
