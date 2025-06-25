@@ -209,7 +209,7 @@
 .valueCard {
   border: 1px solid var(--heading-color);
   border-radius: 20px;
-  @media (max-width: 500px) {
+  @media (max-width: 767px) {
     width: 100%;
     max-width: 100% !important;
   }
@@ -265,6 +265,14 @@
   margin-bottom: 5px;
   width: 100%;
 }
+.technologyComponent .cs_cta.cs_style_2{
+  @media (max-width: 500px) {
+    height: 250px;
+  }
+  @media (max-width: 400px) {
+    height: 200px;
+  }
+}
 .technologyComponent .introductionP{
   margin-bottom: 50px !important;
 }
@@ -276,6 +284,10 @@
 }
 .ourProcessComponent .ourProcessStepCol{
   border-right: 2px solid rgba(0,0,0,0.2);
+  @media (max-width: 991px) {
+    border-right: none;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+  }
 }
 .ourProcessComponent .ourProcessStepCol:last-child{
   border-right: none
@@ -304,12 +316,23 @@
 .ourProcessComponent .ourProcessStepCol:hover p{
   opacity: 1;
 }
+.ourTechApartComponent .d-flex{
+   @media (max-width: 767px) {
+    display: block !important;
+   }
+}
 .ourTechApartComponent .valueCard{
   border-width: 2px;
   flex: 1 1 calc(47%) !important;
   max-width: calc(47%) !important;
   padding: 30px 45px;
+  @media (max-width: 767px) {
+    flex: 1 !important;
+    max-width: 100% !important;
+    margin-bottom: 16px;
+  }
 }
+
 
 .technologyBrochureBtnContainer {
   width: 100%;
@@ -337,6 +360,12 @@
 }
 .industrialApplicationComponent .contentImage{
   height: 340px;
+  @media (max-width: 500px) {
+    height: 300px;
+  }
+  @media (max-width: 400px) {
+    height: 200px;
+  }
 }
 .industrialApplicationComponent h3{
   color: rgba(55,72,54,0.8);

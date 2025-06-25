@@ -38,7 +38,7 @@ const iconStyle = {
 
 export default function CoreValuesSection() {
   return (
-    <section>
+    <section className="coreValuesSection">
       <div className="cs_height_100 cs_height_lg_70" />
       <div className="cs_height_100 cs_height_lg_70" />
       <div className="container">
