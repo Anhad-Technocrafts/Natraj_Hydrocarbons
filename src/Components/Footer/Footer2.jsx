@@ -76,13 +76,13 @@ export default function Footer2() {
         </div>
 
         <div className="cs_bottom_footer">
-          <div className="cs_bottom_footer_left " data-aos="fade-right">
+          <div className="cs_bottom_footer_left ">
             <div
               className="cs_copyright"
               dangerouslySetInnerHTML={{ __html: data.copyright }}
             ></div>
           </div>
-          <div className="cs_bottom_footer_right" data-aos="fade-left">
+          <div className="cs_bottom_footer_right">
             <ul className="cs_footer_links cs_mp_0">
               {data.bottomLinks.map((link, i) => (
                 <li key={i}>

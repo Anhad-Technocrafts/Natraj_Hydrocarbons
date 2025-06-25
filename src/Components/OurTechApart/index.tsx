@@ -16,10 +16,9 @@ export default function OurTechApart({ data }) {
     console.log(data)
     return (
         <section className="ourTechApartComponent">
-            <div className="cs_height_100 cs_height_lg_70" />
+            <div className="cs_height_100 cs_height_lg_70" style={{marginBottom: '10px'}} />
             <div className="container">
-                <div className="d-flex flex-wrap justify-content-between"
-                    style={{ rowGap: '6rem' }}>
+                <div className="d-flex flex-wrap justify-content-between">
                     {
                         data.map(item => {
                             return (

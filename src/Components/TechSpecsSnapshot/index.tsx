@@ -37,7 +37,7 @@ export default function TechSpecsSnapshot({ data }) {
                         ))}
                     </tbody>
                 </table>
-                <div className="technologyBrochureBtnContainer mt-4 mb-4">
+                <div className="technologyBrochureBtnContainer mt-4 ">
                     <a
                         href={'/assets/Nataraj_Hydrocarbons_Brochure.pdf'}
                         target="_blank"

@@ -2,7 +2,7 @@ export default function OurProcess({ data }) {
     console.log(data)
     return (
         <section className="ourProcessComponent">
-            <div className="cs_height_100 cs_height_lg_70" />
+            <div className="cs_height_60 cs_height_lg_50" style={{marginBottom:'3px'}} />
             <div className="container">
                 <div className="row cs_gap_x_40 cs_gap_y_24">
                     {

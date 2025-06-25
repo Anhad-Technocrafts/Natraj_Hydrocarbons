@@ -103,8 +103,8 @@ const ourTechApartData = [
   {
     id: 4,
     icon: '/assets/img/high_calorific_img.png',
-    title: 'Consistent High Calorific Value',
-    desc: 'Engineered to reduce downtime, improve fuel purity, and eliminate scaling'
+    title: 'Scalable Infrastructure',
+    desc: 'Currently producing 150,000 litres/month, expanding to 350,000 litres/month.'
   }
 ]
 
@@ -173,6 +173,7 @@ export default function TechnologyPage() {
       <OurProcess data={ourProcessData} />
       <section>
         <div className="container">
+          <div className="cs_height_100 cs_height_lg_70" />
           <div className="cs_slider cs_style_1 cs_slider_gap_24">
             <div className="cs_section_heading cs_style_2 cs_color_1">
               <h2
@@ -187,6 +188,7 @@ export default function TechnologyPage() {
       <OurTechApart data={ourTechApartData} />
       <section>
         <div className="container">
+          <div className="cs_height_56 cs_height_lg_35" />
           <div className="cs_slider cs_style_1 cs_slider_gap_24">
             <div className="cs_section_heading cs_style_2 cs_color_1">
               <h2
@@ -195,7 +197,7 @@ export default function TechnologyPage() {
                 dangerouslySetInnerHTML={{ __html: "Tech Specs Snapshot" }}
               />
             </div>
-            <p className=" " style={{ fontSize: '1.75rem', fontWeight: 700, marginBottom: '1rem', marginTop: '1rem' }} data-aos="fade-down">For Industrial Clients</p>
+            <p className=" " style={{ fontSize: '1.75rem', fontWeight: 700, marginBottom: '19px', marginTop: '1rem' }} data-aos="fade-down">For Industrial Clients</p>
           </div>
           <div className="cs_height_60 cs_height_lg_40" />          
         </div>
@@ -203,7 +205,8 @@ export default function TechnologyPage() {
       <TechSpecsSnapshot data={techSpecTableData} />
       <section>
         <div className="container">          
-           <div className="cs_height_125 cs_height_lg_80" />
+            <div className="cs_height_100 cs_height_lg_70" />
+             <div className="cs_height_100 cs_height_lg_70" />
           <div className="cs_slider cs_style_1 cs_slider_gap_24">
             <div className="cs_section_heading cs_style_2 cs_color_1">
               <h2

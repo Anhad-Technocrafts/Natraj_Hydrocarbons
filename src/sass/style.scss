@@ -266,6 +266,7 @@
   width: 100%;
 }
 .technologyComponent .cs_cta.cs_style_2{
+  height: 400px;
   @media (max-width: 500px) {
     height: 250px;
   }
@@ -317,19 +318,28 @@
   opacity: 1;
 }
 .ourTechApartComponent .d-flex{
+  // gap: 42px;
+  
+  @media (max-width: 991px) {
+    gap: 1.5rem;
+  }
    @media (max-width: 767px) {
     display: block !important;
    }
 }
 .ourTechApartComponent .valueCard{
   border-width: 2px;
-  flex: 1 1 calc(47%) !important;
-  max-width: calc(47%) !important;
+  flex: 1 1 calc(48%) !important;
+  max-width: calc(48%) !important;
   padding: 30px 45px;
+  margin-bottom: 4%;
+  @media (max-width: 991px) {
+    margin-bottom: 0px;
+  }
   @media (max-width: 767px) {
     flex: 1 !important;
     max-width: 100% !important;
-    margin-bottom: 16px;
+    margin-bottom: 1.5rem;
   }
 }
 

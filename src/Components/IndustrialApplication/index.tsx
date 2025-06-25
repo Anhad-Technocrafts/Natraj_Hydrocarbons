@@ -2,7 +2,7 @@ export default function IndustrialApplicationComponent({ data }) {
     console.log(data)
     return (
         <section className="industrialApplicationComponent wow fadeInUp" data-aos="fade-up">
-            <div className="cs_height_100 cs_height_lg_70" />
+            <div className="cs_height_56 cs_height_lg_35" />
             <div className="container">
                 <div className="row cs_gap_x_40 cs_gap_y_24">
 
@@ -26,7 +26,7 @@ export default function IndustrialApplicationComponent({ data }) {
                         </div>
                     </div>
                 </div>
-                <div className="technologyBrochureBtnContainer mt-4 mb-4">
+                <div className="technologyBrochureBtnContainer mt-4">
                     <a
                         href={'/contact'}
                         target="_self"
