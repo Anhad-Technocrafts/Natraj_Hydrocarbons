@@ -138,6 +138,13 @@ const industrialApplicationData = {
   image: '/assets/img/industrial_application_img.jpg'
 };
 
+const ctaData = {
+  backgroundImage: "/assets/img/cta_bg.jpg",
+  title: "POWER YOUR INDUSTRY <br />LOWER EMISSIONS & COSTS.",
+  buttonText: "Contact Us",
+  buttonUrl: "/contact",
+};
+
 
 export default function TechnologyPage() {
 
@@ -219,6 +226,7 @@ export default function TechnologyPage() {
         </div>
       </section>
       <IndustrialApplicationComponent data={industrialApplicationData} />
+      <CTASection data={ctaData} />
     </>
   );
 }

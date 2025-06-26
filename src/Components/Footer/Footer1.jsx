@@ -34,7 +34,7 @@ const data = {
       ],
     },
   ],
-  copyright: "Nataraj Hydrocarbons © 2025. ALL RIGHTS RESERVED.",
+  copyright: "Nataraj Hydrocarbons Private Limited © 2025. ALL RIGHTS RESERVED.",
   bottomLinks: [
     { label: "Powered with ❤️ by Anhad Technocrafts", url: "/" },
     // { label: "TERMS & CONDITION", url: "/" },

@@ -29,6 +29,7 @@ export default function TechnologyHeroSection({ data }) {
                     </div>
                 </div>
                 <div className="cs_height_80 cs_height_lg_70" />
+                <div className="cs_height_40 cs_height_lg_30"  />
             </div>
         </section>
     )
