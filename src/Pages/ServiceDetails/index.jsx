@@ -72,7 +72,7 @@ const workingProcessData = {
     {
       title: "02 |  High Calorific Value",
       description:
-        "Approx. 10,500 kcal/kg — more energy output per litre than many traditional fuels.",
+        "Approx. 11,000 kcal/kg — around 1000 kcal/kg more energy output per litre than many traditional fuels.",
     },
     {
       title: "03 |  Plastic Waste Reuse",

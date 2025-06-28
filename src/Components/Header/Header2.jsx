@@ -9,6 +9,7 @@ const data = {
     { label: "SUPER FUEL", href: "/superfuel" },
     { label: "ABOUT US", href: "/about" },
     { label: "TECHNOLOGY", href: "/technology" },
+    { label: "INVESTORS", href: "/investors" },
     { label: "CONTACT US", href: "/contact" },
     // { label: "SERVICES", href: "/services" },
     // { label: "PROJECTS", href: "/projects" },

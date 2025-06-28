@@ -152,6 +152,7 @@ function App() {
 
         <Route path="/" element={<Layout />}>
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/investors" element={<BlogDetailsPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/technology" element={<TechnologyPage />} />
 

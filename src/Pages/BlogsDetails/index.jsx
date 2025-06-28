@@ -1,18 +1,19 @@
 import React from "react";
-import PageHeading1 from "../../Components/PageHeading/PageHeading1";
-import Sidebar from "../../Components/Sidebar/Sidebar";
+// import PageHeading1 from "../../Components/PageHeading/PageHeading1";
+// import Sidebar from "../../Components/Sidebar/Sidebar";
 import BlogDetailsSection from "../../Components/BlogsDetails";
-import CardSection from "../../Components/CardSection";
+// import CardSection from "../../Components/CardSection";
 import PageHeading from "../../Components/PageHeading";
 import { pageTitle } from "../../helper";
+import CTASection from "../../Components/CTASection";
 
 const BreadcrumbsData = {
   backgroundImage: "/assets/img/about_heading_bg.jpg",
   breadcrumbs: [
     { label: "Home", link: "/" },
-    { label: "Blog Details", active: true },
+    { label: "Investors", active: true },
   ],
-  title: "Transform Yard with Expert Landscape Design Services",
+  title: "Investors",
 };
 
 const SidebarData = {
@@ -81,59 +82,82 @@ const SidebarData = {
 };
 
 const blogData = {
-  postThumb: "/assets/img/post_1.jpg",
-  date: "07 Mar 2022",
-  category: { title: "Tach", url: "/" },
+  postThumb: "/assets/img/Social-Media-PostWebsite-Article-for-Nataraj-Hydrocarbons-Private-Limited.png",
+  date: "24 June 2025",
+  category: { title: "Investors", url: "/" },
 
-  title: "Transform Your Yard with Expert Landscape Design Services",
+  title: "Rigel Capital Invests in Nataraj Hydrocarbons Private Limited to Tackle Plastic Waste Through Clean Fuel Innovation",
   content: [
     {
       type: "p",
-      text: `Your yard is more than just an outdoor space; it's an extension of your home and lifestyle. Whether you have a small garden, a sprawling lawn, or a cozy patio, a well-designed landscape can completely transform the way you experience your outdoor environment. Expert landscape design services can turn your yard into a beautiful, functional, and inviting space, tailored to suit your needs, preferences, and the local climate. <br/> In this blog, we'll explore how professional landscape designers can help you achieve the yard of your dreams, from initial consultation to final touches.`,
+      text: `Singapore — Rigel Capital is deepening its focus on climate innovation with its latest investment in Nataraj Hydrocarbons Private Limited (“NHC”), a pioneering clean-tech company founded by Rahul Bansal and Nitish Jain. Rigel has invested in NHC’s first external round to support its mission of converting plastic waste into clean fuel—a scalable and environmentally sustainable alternative to traditional fossil fuels.`,
     },
+    // {
+    //   type: "blockquote",
+    //   quote: `A well-designed landscape is more than just a beautiful yard; it’s an investment in your home’s value, functionality, and your overall lifestyle. Expert landscape design services bring your vision to life, creating an outdoor space that is both stunning and practical for years to come.`,
+    //   author: "Loren Mulari",
+    // },
     {
-      type: "blockquote",
-      quote: `A well-designed landscape is more than just a beautiful yard; it’s an investment in your home’s value, functionality, and your overall lifestyle. Expert landscape design services bring your vision to life, creating an outdoor space that is both stunning and practical for years to come.`,
-      author: "Loren Mulari",
+      type: "p",
+      text: `NHC stands at the forefront of sustainable innovation. By leveraging proprietary pyrolysis solutions, the company transforms waste plastic into usable clean fuels, offering a scalable alternative to traditional fossil-based energy sources. NHC has developed in-house technology to address known limitations in the process, such as reactor descaling and fuel refinement, demonstrating both technical expertise and operational excellence.`,
     },
     {
       type: "p",
-      text: `It might seem like a landscape design service is an added expense, but in reality, it can save you time and money in the long run. A professional designer knows how to plan and execute your vision efficiently, ensuring that you avoid costly mistakes such as planting the wrong plants, choosing inappropriate materials, or overdesigning your space.`,
-    },
-  ],
-  images: ["/assets/img/post_2.jpg", "/assets/img/post_3.jpg"],
-  sections: [
-    {
-      heading: "Personalized Designs for Every Style and Need",
-      paragraph: `A professional landscape designer brings a wealth of knowledge and creativity to the table. They will work closely with you to understand your vision, needs, and lifestyle. Whether you're looking for a tranquil retreat, a space for family gatherings, or a low-maintenance garden, an expert designer can craft a personalized landscape plan that aligns with your goals.<br/>
-Landscape designers consider various elements like color schemes, textures, plant selection, and layout to create a harmonious design that reflects your style. They can incorporate features such as garden paths, water elements, outdoor lighting, and even edible plants, giving your yard a unique, personalized touch.`,
+      text: `With an existing monthly capacity of 150,000 liters of clean fuel and 100% repeat orders from industrial clients, NHC is now building a new production line that will increase capacity to 350,000 liters/month. The demand for substitutes to Light Diesel Oil and Furnace Oil in India and other global markets is surging, and NHC is strategically positioned to capture this momentum.`,
     },
     {
-      heading: "Maximize Space and Functionality",
-      paragraph: `One of the main advantages of hiring a landscape designer is their ability to maximize the potential of your yard. No matter the size or shape of your outdoor space, an expert can design it to be both aesthetically pleasing and functional. They can transform even the smallest yard into a cozy retreat or optimize a large lawn to include areas for entertaining, gardening, or relaxation.`,
+      type: "p",
+      text: `“We believe NHC offers not just a compelling business opportunity, but a critical environmental solution,” said Sebastian Togelang, Founding Partner of Rigel Capital. “Their proven technology, repeat customer traction, and clear roadmap to scale make them a standout in the clean energy space.”`,
+    },
+    {
+      type: "p",
+      text: `The two Directors and Co-Founders of Nataraj shared their thoughts: “We are grateful that Rigel Capital has believed in our vision of making India a benchmark in waste plastic recycling and processing clean fuels”, said Rahul Bansal, “We believe that we will meet the expectations of our investors in creating value in a sustainable and scalable manner “, said Nitish Jain.`,
+    },
+    {
+      type: "p",
+      text: `With plans for a Series A round underway, NHC aims to expand across new geographies, scale production further, and explore future innovations such as Methanol production. This investment aligns with Rigel Capital’s commitment to backing transformative ventures at the intersection of sustainability, technology, and impact.`,
     },
   ],
-  videoUrl: "https://www.youtube.com/embed/uqWykluW2e4",
-  closingParagraph: `Professional landscape design services take into account how you'll use the space. For example, if you enjoy outdoor dining or entertaining, they can create an inviting patio or outdoor kitchen area. If you have children or pets, they can design a safe and engaging play area. A designer can also create zones for different activities, ensuring that every inch of your yard serves a purpose.`,
+  // images: ["/assets/img/post_2.jpg", "/assets/img/post_3.jpg"],
+//   sections: [
+//     {
+//       heading: "Personalized Designs for Every Style and Need",
+//       paragraph: `A professional landscape designer brings a wealth of knowledge and creativity to the table. They will work closely with you to understand your vision, needs, and lifestyle. Whether you're looking for a tranquil retreat, a space for family gatherings, or a low-maintenance garden, an expert designer can craft a personalized landscape plan that aligns with your goals.<br/>
+// Landscape designers consider various elements like color schemes, textures, plant selection, and layout to create a harmonious design that reflects your style. They can incorporate features such as garden paths, water elements, outdoor lighting, and even edible plants, giving your yard a unique, personalized touch.`,
+//     },
+//     {
+//       heading: "Maximize Space and Functionality",
+//       paragraph: `One of the main advantages of hiring a landscape designer is their ability to maximize the potential of your yard. No matter the size or shape of your outdoor space, an expert can design it to be both aesthetically pleasing and functional. They can transform even the smallest yard into a cozy retreat or optimize a large lawn to include areas for entertaining, gardening, or relaxation.`,
+//     },
+//   ],
+  // videoUrl: "https://www.youtube.com/embed/uqWykluW2e4",
+  // closingParagraph: `Professional landscape design services take into account how you'll use the space. For example, if you enjoy outdoor dining or entertaining, they can create an inviting patio or outdoor kitchen area. If you have children or pets, they can design a safe and engaging play area. A designer can also create zones for different activities, ensuring that every inch of your yard serves a purpose.`,
 
   property: {
-    title: "Increase Property Value",
-    description: `A well-designed landscape is not only beautiful but also adds significant value to your property. Curb appeal plays a crucial role in a home's first impression, and a lush, thoughtfully designed yard can elevate the overall appeal of your home. Whether you're planning to sell or just want to enhance the long-term investment, a professional landscape design can help increase your property’s value. Landscape designers know what plants, materials, and designs work best for your local environment, ensuring that your yard remains beautiful and sustainable for years to come. A beautifully landscaped yard will attract more potential buyers if you're selling your home, making it a valuable investment.`,
+    title: "About Rigel Capital:",
+    description: `Rigel Capital is an investor and ecosystem builder focused on connecting the West and East to foster a global innovation ecosystem. We back hyper-growth companies across supply chain, logistics, green mobility, e-commerce enablement, health, sustainability and other transformative technology sectors. `
   },
 
-  formTitle: "Leave A Reply",
-  formNote:
-    "Your email address will not be published. Required fields are marked *",
+  // formTitle: "Leave A Reply",
+  // formNote:
+  //   "Your email address will not be published. Required fields are marked *",
 };
 
-const cardData = {
-  backgroundImage: "/assets/img/card_bg.jpg",
-  tags: ["Home", "Garden", "Landscape Design", "Expert"],
-  title: "MAKE YOUR DREAM <br /> GARDEN INTO REALITY",
-  buttonLink: "/projects",
+// const cardData = {
+//   backgroundImage: "/assets/img/card_bg.jpg",
+//   tags: ["Home", "Garden", "Landscape Design", "Expert"],
+//   title: "MAKE YOUR DREAM <br /> GARDEN INTO REALITY",
+//   buttonLink: "/projects",
+// };
+const ctaData = {
+  backgroundImage: "/assets/img/cta_bg.jpg",
+  title: "POWER YOUR INDUSTRY <br />LOWER EMISSIONS & COSTS.",
+  buttonText: "Contact Us",
+  buttonUrl: "/contact",
 };
+
 export default function BlogDetailsPage() {
-  pageTitle("Blog Details | NHC");
+  pageTitle("Investors | NHC");
   return (
     <>
       <PageHeading data={BreadcrumbsData} />
@@ -142,13 +166,12 @@ export default function BlogDetailsPage() {
         <div className="container">
           <div className="row">
             <BlogDetailsSection data={blogData} />
-            <Sidebar data={SidebarData} />
+            {/* <Sidebar data={SidebarData} /> */}
           </div>
         </div>
         <div className="cs_height_100 cs_height_lg_70" />
       </section>
-
-      <CardSection data={cardData} />
+      <CTASection data={ctaData} />
     </>
   );
 }

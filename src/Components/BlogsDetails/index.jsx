@@ -39,7 +39,7 @@ export default function BlogDetailsSection({ data }) {
             return null;
           })}
 
-          <div className="row">
+          {/* <div className="row">
             {data.images.map((img, index) => (
               <div className="col-md-6" key={index}>
                 <img
@@ -50,38 +50,55 @@ export default function BlogDetailsSection({ data }) {
                 <div className="cs_height_35 cs_height_lg_20" />
               </div>
             ))}
-          </div>
+          </div> */}
 
-          {data.sections.map((section, index) => (
+          {/* {data.sections.map((section, index) => (
             <div key={index}>
               <h3 dangerouslySetInnerHTML={{ __html: section.heading }}></h3>
               <p dangerouslySetInnerHTML={{ __html: section.paragraph }}></p>
             </div>
-          ))}
+          ))} */}
 
-          <div className="embed-responsive embed-responsive-16by9">
+          {/* <div className="embed-responsive embed-responsive-16by9">
             <iframe
               className="embed-responsive-item"
               src={data.videoUrl}
               allowFullScreen
             />
-          </div>
+          </div> */}
 
-          <p dangerouslySetInnerHTML={{ __html: data.closingParagraph }}></p>
-
+          {/* <p dangerouslySetInnerHTML={{ __html: data.closingParagraph }}></p> */}
+          <p><strong>Source:</strong> <a href="https://rigelcapital.com/2025/06/24/rigel-capital-invests-in-nataraj-hydrocarbons-private-limited-to-tackle-plastic-waste-through-clean-fuel-innovation/" className="text-decoration-underline">https://rigelcapital.com/2025/06/24/rigel-capital-invests-in-nataraj-hydrocarbons-private-limited-to-tackle-plastic-waste-through-clean-fuel-innovation/</a></p>
           <div>
+            <hr />
+            <div className="cs_height_30 cs_height_lg_30"></div>
             <h3
               dangerouslySetInnerHTML={{ __html: data?.property?.title }}
             ></h3>
             <p
               dangerouslySetInnerHTML={{ __html: data?.property?.description }}
             ></p>
+            <br />
+            <p>
+              <strong>For media inquiries, please contact:</strong>
+              <br />
+              <strong>Rigel Capital</strong> – <a href="mailto:investor.relations@rigelcapital.com" className="text-decoration-underline">investor.relations@rigelcapital.com</a>
+              <br />
+              <strong>Website: </strong><a href="https://www.rigelcapital.com" className="text-decoration-underline">www.rigelcapital.com</a>
+            </p>
+
+            <p>
+              <strong>Nataraj Hydrocarbons Private Limited</strong> – <a href="mailto:info@nhcoil.com" className="text-decoration-underline">info@nhcoil.com</a>
+              <br />
+              <strong>Website: </strong><a href="https://www.nhcoil.com" className="text-decoration-underline">www.nhcoil.com</a>
+            </p>
+            <hr />
           </div>
         </div>
       </div>
 
       <div className="cs_height_30 cs_height_lg_30" />
-      <h2 className="cs_fs_32 mb-0">{data.formTitle}</h2>
+      {/* <h2 className="cs_fs_32 mb-0">{data.formTitle}</h2>
       <div className="cs_height_5 cs_height_lg_5" />
       <p className="mb-0">{data.formNote}</p>
       <div className="cs_height_40 cs_height_lg_30" />
@@ -114,7 +131,7 @@ export default function BlogDetailsSection({ data }) {
             <span>Send Message</span>
           </button>
         </div>
-      </form>
+      </form> */}
     </div>
   );
 }
